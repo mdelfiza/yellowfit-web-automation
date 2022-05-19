@@ -31,9 +31,9 @@ WebUI.click(findTestObject('Login/btn_login'))
 
 WebUI.verifyElementPresent(findTestObject('Login/mdl_failed'), 0);
 
-WebUI.verifyTextPresent("Failed", false)
+WebUI.verifyTextPresent("Unknown", false)
 
-WebUI.verifyTextPresent("Password tidak boleh kosong!", false)
+WebUI.verifyTextPresent("email anda belum terdaftar, silakan lakukan registrasi!", false)
 
 WebUI.click(findTestObject('Login/btn_OK'))
 

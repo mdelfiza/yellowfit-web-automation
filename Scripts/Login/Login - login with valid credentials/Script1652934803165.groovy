@@ -29,13 +29,9 @@ WebUI.setEncryptedText(findTestObject('Login/input_password'), password)
 
 WebUI.click(findTestObject('Login/btn_login'))
 
-WebUI.verifyElementPresent(findTestObject('Login/mdl_failed'), 0);
+WebUI.verifyElementPresent(findTestObject('Login/label_my_account'), 0)
 
-WebUI.verifyTextPresent("Failed", false)
-
-WebUI.verifyTextPresent("Password tidak boleh kosong!", false)
-
-WebUI.click(findTestObject('Login/btn_OK'))
+WebUI.verifyTextPresent(GlobalVariable.email, false)
 
 WebUI.closeBrowser()
 

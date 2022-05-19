@@ -17,25 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//WebUI.callTestCase(findTestCase('Test Cases/Home/Home - click Account'), null)
-
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.url+'login')
-
-WebUI.setText(findTestObject('Login/input_email'), email)
-
-WebUI.setEncryptedText(findTestObject('Login/input_password'), password)
-
-WebUI.click(findTestObject('Login/btn_login'))
-
-WebUI.verifyElementPresent(findTestObject('Login/mdl_failed'), 0);
-
-WebUI.verifyTextPresent("Failed", false)
-
-WebUI.verifyTextPresent("Password tidak boleh kosong!", false)
-
-WebUI.click(findTestObject('Login/btn_OK'))
-
-WebUI.closeBrowser()
-

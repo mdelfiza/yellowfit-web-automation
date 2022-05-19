@@ -23,19 +23,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.url+'login')
 
-WebUI.setText(findTestObject('Login/input_email'), email)
+WebUI.click(findTestObject('Object Repository/Login/btn_create_account'))
 
-WebUI.setEncryptedText(findTestObject('Login/input_password'), password)
+WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.url + 'register', false)
 
-WebUI.click(findTestObject('Login/btn_login'))
-
-WebUI.verifyElementPresent(findTestObject('Login/mdl_failed'), 0);
-
-WebUI.verifyTextPresent("Failed", false)
-
-WebUI.verifyTextPresent("Password tidak boleh kosong!", false)
-
-WebUI.click(findTestObject('Login/btn_OK'))
+WebUI.verifyTextPresent('REGISTER', false)
 
 WebUI.closeBrowser()
 
