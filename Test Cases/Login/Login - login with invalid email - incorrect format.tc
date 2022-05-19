@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login - login with invalid email - incorrect format</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ea9f12e7-2fb2-4f95-83b8-80161341334d</testCaseGuid>
+   <variable>
+      <defaultValue>'a1'</defaultValue>
+      <description></description>
+      <id>71d6840a-c116-49ab-beb2-2109f770f67c</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8370196d-aa32-4ce8-b23e-5f84c9f6675d</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
