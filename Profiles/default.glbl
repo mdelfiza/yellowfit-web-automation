@@ -9,19 +9,4 @@
       <initValue>'https://yellowfitkitchen.com/'</initValue>
       <name>url</name>
    </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>''</initValue>
-      <name>test1</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>''</initValue>
-      <name>test2</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'test33'</initValue>
-      <name>test3</name>
-   </GlobalVariableEntity>
 </GlobalVariableEntities>
