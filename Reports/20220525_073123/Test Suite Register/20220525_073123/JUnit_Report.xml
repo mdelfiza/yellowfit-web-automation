@@ -1,0 +1,1220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite Register" time="158.152" tests="4" failures="1" errors="0">
+   <testsuite name="Test Suite Register" tests="4" failures="1" errors="0" time="158.152" skipped="0" timestamp="2022-05-25 07:31:27" hostname="meitridelfiza - localhost" id="Test Suites/Test Suite Register">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/meitridelfiza/git/yellowfit-web-automation/Reports/20220525_073123/Test Suite Register/20220525_073123"/>
+         <property name="logFiles" value="/Users/meitridelfiza/git/yellowfit-web-automation/Reports/20220525_073123/Test Suite Register/20220525_073123/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="meitridelfiza - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 101.0.4951.64"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="5de3ced4f0179355c76aa4e91e267ca7"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Register/Register with valid data" time="52.781" classname="Test Cases/Register/Register with valid data" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Register/Register with valid data FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/Register.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFileWithTags_closure2.doCall(CucumberBuiltinKeywords.groovy:210)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFileWithTags_closure2.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFileWithTags(CucumberBuiltinKeywords.groovy:164)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFileWithTags.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFileWithTags(CucumberBuiltinKeywords.groovy:287)
+	at Register with valid data.run(Register with valid data:3)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1653438683343.run(TempTestSuite1653438683343.groovy:36)
+"/>
+         <system-out><![CDATA[2022-05-25 07:31:28 - [TEST_CASE][FAILED] - Test Cases/Register/Register with valid data: Test Cases/Register/Register with valid data FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/Register.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFileWithTags_closure2.doCall(CucumberBuiltinKeywords.groovy:210)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFileWithTags_closure2.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFileWithTags(CucumberBuiltinKeywords.groovy:164)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFileWithTags.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFileWithTags(CucumberBuiltinKeywords.groovy:287)
+	at Register with valid data.run(Register with valid data:3)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1653438683343.run(TempTestSuite1653438683343.groovy:36)
+
+
+2022-05-25 07:31:28 - [TEST_STEP][FAILED] - runFeatureFileWithTags("Include/features/Register.feature", "@Valid_data"): Keyword runFeatureFileWithTags was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/Register.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFileWithTags_closure2.doCall(CucumberBuiltinKeywords.groovy:210)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFileWithTags_closure2.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFileWithTags(CucumberBuiltinKeywords.groovy:164)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFileWithTags.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFileWithTags(CucumberBuiltinKeywords.groovy:287)
+	at Register with valid data.run(Register with valid data:3)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1653438683343.run(TempTestSuite1653438683343.groovy:36)
+)
+
+2022-05-25 07:31:28 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Register.feature' and extract report to folder: '/Users/meitridelfiza/git/yellowfit-web-automation/Reports/20220525_073123/Test Suite Register/20220525_073123/cucumber_report/1653438688348'...
+
+2022-05-25 07:31:28 - [TEST_CASE][FAILED] - Start Test Case : SCENARIO Register with valid data: SCENARIO Register with valid data FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Common/Login - Login page is loaded successfully' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Register.I_should_be_redirected_to_Login_page(Register.groovy:67)
+	at ✽.I should be redirected to Login page(/Users/meitridelfiza/git/yellowfit-web-automation/Include/features/Register.feature:12)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'https://yellowfitkitchen.com/register' and expected text 'https://yellowfitkitchen.com/login' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at Login - Login page is loaded successfully.run(Login - Login page is loaded successfully:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Register.I_should_be_redirected_to_Login_page(Register.groovy:67)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:65)
+	at cucumber.runner.TestStep.run(TestStep.java:47)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFileWithTags_closure2.doCall(CucumberBuiltinKeywords.groovy:204)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFileWithTags_closure2.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFileWithTags(CucumberBuiltinKeywords.groovy:164)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFileWithTags.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFileWithTags(CucumberBuiltinKeywords.groovy:287)
+	at Register with valid data.run(Register with valid data:3)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1653438683343.run(TempTestSuite1653438683343.groovy:36)
+
+
+2022-05-25 07:31:28 - [TEST_STEP][PASSED] - I navigate to YellowFit application: I navigate to YellowFit application
+
+2022-05-25 07:31:29 - [TEST_CASE][PASSED] - Test Cases/Common/Home - Load home page: Test Cases/Common/Home - Load home page
+
+2022-05-25 07:31:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-25 07:31:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-25 07:31:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-25 07:31:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-25 07:31:35 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://yellowfitkitchen.com/' successfully
+
+2022-05-25 07:31:56 - [MESSAGE][PASSED] - Navigate to 'https://yellowfitkitchen.com/' successfully
+
+2022-05-25 07:31:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Home - Load home page' successfully
+
+2022-05-25 07:31:56 - [MESSAGE][PASSED] - I navigate to YellowFit application
+
+2022-05-25 07:31:56 - [TEST_STEP][PASSED] - I click Account button: I click Account button
+
+2022-05-25 07:31:56 - [TEST_CASE][PASSED] - Test Cases/Common/Home - Click Account: Test Cases/Common/Home - Click Account
+
+2022-05-25 07:31:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home/link_account")): Object: 'Object Repository/Home/link_account' is clicked on
+
+2022-05-25 07:32:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Home/link_account' is clicked on
+
+2022-05-25 07:32:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Home - Click Account' successfully
+
+2022-05-25 07:32:06 - [MESSAGE][PASSED] - I click Account button
+
+2022-05-25 07:32:06 - [TEST_STEP][PASSED] - I click Create Account button: I click Create Account button
+
+2022-05-25 07:32:06 - [TEST_CASE][PASSED] - Test Cases/Common/Login - Click Create Account: Test Cases/Common/Login - Click Create Account
+
+2022-05-25 07:32:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/btn_create_account")): Object: 'Object Repository/Login/btn_create_account' is clicked on
+
+2022-05-25 07:32:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btn_create_account' is clicked on
+
+2022-05-25 07:32:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Login - Click Create Account' successfully
+
+2022-05-25 07:32:10 - [MESSAGE][PASSED] - I click Create Account button
+
+2022-05-25 07:32:10 - [TEST_STEP][PASSED] - I input firstname Hazel, lastname Grace, date 10, month 10, year 2000, phone 08112233440011, email delf_test7@gmail.com, and password HwXnxaZD17M=: I input firstname Hazel, lastname Grace, date 10, month 10, year 2000, phone 08112233440011, email delf_test7@gmail.com, and password HwXnxaZD17M=
+
+2022-05-25 07:32:10 - [TEST_CASE][PASSED] - Test Cases/Common/Register - Fill registration form: Test Cases/Common/Register - Fill registration form
+
+2022-05-25 07:32:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register/input_first_name"), firstname): Text 'Hazel' is set on object 'Object Repository/Register/input_first_name'
+
+2022-05-25 07:32:11 - [MESSAGE][PASSED] - Text 'Hazel' is set on object 'Object Repository/Register/input_first_name'
+
+2022-05-25 07:32:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register/input_last_name"), lastname): Text 'Grace' is set on object 'Object Repository/Register/input_last_name'
+
+2022-05-25 07:32:12 - [MESSAGE][PASSED] - Text 'Grace' is set on object 'Object Repository/Register/input_last_name'
+
+2022-05-25 07:32:12 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Register/dd_day"), date, true): All options with value '10' are selected in object 'Object Repository/Register/dd_day'  using regular expression
+
+2022-05-25 07:32:13 - [MESSAGE][PASSED] - All options with value '10' are selected in object 'Object Repository/Register/dd_day'  using regular expression
+
+2022-05-25 07:32:13 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Register/dd_month"), month, true): All options with value '10' are selected in object 'Object Repository/Register/dd_month'  using regular expression
+
+2022-05-25 07:32:14 - [MESSAGE][PASSED] - All options with value '10' are selected in object 'Object Repository/Register/dd_month'  using regular expression
+
+2022-05-25 07:32:14 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Register/dd_year"), year, true): All options with value '2000' are selected in object 'Object Repository/Register/dd_year'  using regular expression
+
+2022-05-25 07:32:17 - [MESSAGE][PASSED] - All options with value '2000' are selected in object 'Object Repository/Register/dd_year'  using regular expression
+
+2022-05-25 07:32:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register/input_phone_whatsapp"), phone): Text '08112233440011' is set on object 'Object Repository/Register/input_phone_whatsapp'
+
+2022-05-25 07:32:18 - [MESSAGE][PASSED] - Text '08112233440011' is set on object 'Object Repository/Register/input_phone_whatsapp'
+
+2022-05-25 07:32:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register/input_email"), email): Text 'delf_test7@gmail.com' is set on object 'Object Repository/Register/input_email'
+
+2022-05-25 07:32:19 - [MESSAGE][PASSED] - Text 'delf_test7@gmail.com' is set on object 'Object Repository/Register/input_email'
+
+2022-05-25 07:32:19 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Register/input_password"), password): Text ****** has been set on object 'Object Repository/Register/input_password'
+
+2022-05-25 07:32:19 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Register/input_password'
+
+2022-05-25 07:32:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Register - Fill registration form' successfully
+
+2022-05-25 07:32:19 - [MESSAGE][PASSED] - I input firstname Hazel, lastname Grace, date 10, month 10, year 2000, phone 08112233440011, email delf_test7@gmail.com, and password HwXnxaZD17M=
+
+2022-05-25 07:32:19 - [TEST_STEP][PASSED] - I click Register button: I click Register button
+
+2022-05-25 07:32:19 - [TEST_CASE][PASSED] - Test Cases/Common/Register - Click Register: Test Cases/Common/Register - Click Register
+
+2022-05-25 07:32:19 - [TEST_STEP][PASSED] - click(findTestObject("Register/btn_register")): Object: 'Object Repository/Register/btn_register' is clicked on
+
+2022-05-25 07:32:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/btn_register' is clicked on
+
+2022-05-25 07:32:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Register - Click Register' successfully
+
+2022-05-25 07:32:20 - [MESSAGE][PASSED] - I click Register button
+
+2022-05-25 07:32:20 - [TEST_STEP][FAILED] - I should be redirected to Login page: I should be redirected to Login page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Common/Login - Login page is loaded successfully' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Register.I_should_be_redirected_to_Login_page(Register.groovy:67)
+	at ✽.I should be redirected to Login page(/Users/meitridelfiza/git/yellowfit-web-automation/Include/features/Register.feature:12)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'https://yellowfitkitchen.com/register' and expected text 'https://yellowfitkitchen.com/login' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at Login - Login page is loaded successfully.run(Login - Login page is loaded successfully:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Register.I_should_be_redirected_to_Login_page(Register.groovy:67)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:65)
+	at cucumber.runner.TestStep.run(TestStep.java:47)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFileWithTags_closure2.doCall(CucumberBuiltinKeywords.groovy:204)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFileWithTags_closure2.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFileWithTags(CucumberBuiltinKeywords.groovy:164)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFileWithTags.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFileWithTags(CucumberBuiltinKeywords.groovy:287)
+	at Register with valid data.run(Register with valid data:3)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1653438683343.run(TempTestSuite1653438683343.groovy:36)
+
+
+2022-05-25 07:32:20 - [TEST_CASE][FAILED] - Test Cases/Common/Login - Login page is loaded successfully: Test Cases/Common/Login - Login page is loaded successfully FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'https://yellowfitkitchen.com/register' and expected text 'https://yellowfitkitchen.com/login' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at Login - Login page is loaded successfully.run(Login - Login page is loaded successfully:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Register.I_should_be_redirected_to_Login_page(Register.groovy:67)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:65)
+	at cucumber.runner.TestStep.run(TestStep.java:47)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFileWithTags_closure2.doCall(CucumberBuiltinKeywords.groovy:204)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFileWithTags_closure2.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFileWithTags(CucumberBuiltinKeywords.groovy:164)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFileWithTags.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFileWithTags(CucumberBuiltinKeywords.groovy:287)
+	at Register with valid data.run(Register with valid data:3)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1653438683343.run(TempTestSuite1653438683343.groovy:36)
+
+
+2022-05-25 07:32:20 - [TEST_STEP][FAILED] - verifyMatch(getUrl(), url + "login", false): Unable to verify match between actual text 'https://yellowfitkitchen.com/register' and expected text 'https://yellowfitkitchen.com/login' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'https://yellowfitkitchen.com/register' and expected text 'https://yellowfitkitchen.com/login' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at Login - Login page is loaded successfully.run(Login - Login page is loaded successfully:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Register.I_should_be_redirected_to_Login_page(Register.groovy:67)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:65)
+	at cucumber.runner.TestStep.run(TestStep.java:47)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFileWithTags_closure2.doCall(CucumberBuiltinKeywords.groovy:204)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFileWithTags_closure2.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFileWithTags(CucumberBuiltinKeywords.groovy:164)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFileWithTags.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFileWithTags(CucumberBuiltinKeywords.groovy:287)
+	at Register with valid data.run(Register with valid data:3)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1653438683343.run(TempTestSuite1653438683343.groovy:36)
+)
+
+2022-05-25 07:32:20 - [MESSAGE][PASSED] - Current window's url is: 'https://yellowfitkitchen.com/register'
+
+2022-05-25 07:32:20 - [MESSAGE][FAILED] - Unable to verify match between actual text 'https://yellowfitkitchen.com/register' and expected text 'https://yellowfitkitchen.com/login' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'https://yellowfitkitchen.com/register' and expected text 'https://yellowfitkitchen.com/login' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at Login - Login page is loaded successfully.run(Login - Login page is loaded successfully:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Register.I_should_be_redirected_to_Login_page(Register.groovy:67)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:65)
+	at cucumber.runner.TestStep.run(TestStep.java:47)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFileWithTags_closure2.doCall(CucumberBuiltinKeywords.groovy:204)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFileWithTags_closure2.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFileWithTags(CucumberBuiltinKeywords.groovy:164)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFileWithTags.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFileWithTags(CucumberBuiltinKeywords.groovy:287)
+	at Register with valid data.run(Register with valid data:3)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1653438683343.run(TempTestSuite1653438683343.groovy:36)
+)
+
+2022-05-25 07:32:20 - [MESSAGE][FAILED] - Unable to call Test Case 'Test Cases/Common/Login - Login page is loaded successfully' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Common/Login - Login page is loaded successfully' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Register.I_should_be_redirected_to_Login_page(Register.groovy:67)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:65)
+	at cucumber.runner.TestStep.run(TestStep.java:47)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFileWithTags_closure2.doCall(CucumberBuiltinKeywords.groovy:204)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFileWithTags_closure2.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFileWithTags(CucumberBuiltinKeywords.groovy:164)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFileWithTags.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFileWithTags(CucumberBuiltinKeywords.groovy:287)
+	at Register with valid data.run(Register with valid data:3)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1653438683343.run(TempTestSuite1653438683343.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'https://yellowfitkitchen.com/register' and expected text 'https://yellowfitkitchen.com/login' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at Login - Login page is loaded successfully.run(Login - Login page is loaded successfully:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 43 more
+)
+
+2022-05-25 07:32:20 - [MESSAGE][FAILED] - I should be redirected to Login page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Common/Login - Login page is loaded successfully' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Register.I_should_be_redirected_to_Login_page(Register.groovy:67)
+	at ✽.I should be redirected to Login page(/Users/meitridelfiza/git/yellowfit-web-automation/Include/features/Register.feature:12)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'https://yellowfitkitchen.com/register' and expected text 'https://yellowfitkitchen.com/login' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at Login - Login page is loaded successfully.run(Login - Login page is loaded successfully:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Register.I_should_be_redirected_to_Login_page(Register.groovy:67)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:65)
+	at cucumber.runner.TestStep.run(TestStep.java:47)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFileWithTags_closure2.doCall(CucumberBuiltinKeywords.groovy:204)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFileWithTags_closure2.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFileWithTags(CucumberBuiltinKeywords.groovy:164)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFileWithTags.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFileWithTags(CucumberBuiltinKeywords.groovy:287)
+	at Register with valid data.run(Register with valid data:3)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1653438683343.run(TempTestSuite1653438683343.groovy:36)
+
+
+2022-05-25 07:32:20 - [MESSAGE][FAILED] - Feature file 'Include/features/Register.feature' was failed
+
+2022-05-25 07:32:20 - [MESSAGE][FAILED] - Keyword runFeatureFileWithTags was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/Register.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFileWithTags_closure2.doCall(CucumberBuiltinKeywords.groovy:210)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFileWithTags_closure2.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFileWithTags(CucumberBuiltinKeywords.groovy:164)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFileWithTags.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFileWithTags(CucumberBuiltinKeywords.groovy:287)
+	at Register with valid data.run(Register with valid data:3)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1653438683343.run(TempTestSuite1653438683343.groovy:36)
+)
+
+2022-05-25 07:32:20 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Browser is closed
+
+2022-05-25 07:32:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-05-25 07:32:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2022-05-25 07:31:28 - [TEST_CASE][FAILED] - Test Cases/Register/Register with valid data: Test Cases/Register/Register with valid data FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/Register.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFileWithTags_closure2.doCall(CucumberBuiltinKeywords.groovy:210)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFileWithTags_closure2.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFileWithTags(CucumberBuiltinKeywords.groovy:164)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFileWithTags.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFileWithTags(CucumberBuiltinKeywords.groovy:287)
+	at Register with valid data.run(Register with valid data:3)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1653438683343.run(TempTestSuite1653438683343.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register/Neg - Register with empty firstname" time="30.493" classname="Test Cases/Register/Neg - Register with empty firstname" status="PASSED">
+         <system-out><![CDATA[2022-05-25 07:32:20 - [TEST_CASE][PASSED] - Test Cases/Register/Neg - Register with empty firstname: Test Cases/Register/Neg - Register with empty firstname
+
+2022-05-25 07:32:21 - [TEST_STEP][PASSED] - runFeatureFileWithTags("Include/features/Register.feature", "@Empty_firstname"): Feature file: 'Include/features/Register.feature' was passed
+
+2022-05-25 07:32:21 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Register.feature' and extract report to folder: '/Users/meitridelfiza/git/yellowfit-web-automation/Reports/20220525_073123/Test Suite Register/20220525_073123/cucumber_report/1653438741013'...
+
+2022-05-25 07:32:21 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Register with empty firstname: SCENARIO Register with empty firstname
+
+2022-05-25 07:32:21 - [TEST_STEP][PASSED] - I navigate to YellowFit application: I navigate to YellowFit application
+
+2022-05-25 07:32:21 - [TEST_CASE][PASSED] - Test Cases/Common/Home - Load home page: Test Cases/Common/Home - Load home page
+
+2022-05-25 07:32:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-25 07:32:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-25 07:32:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-25 07:32:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-25 07:32:24 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://yellowfitkitchen.com/' successfully
+
+2022-05-25 07:32:34 - [MESSAGE][PASSED] - Navigate to 'https://yellowfitkitchen.com/' successfully
+
+2022-05-25 07:32:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Home - Load home page' successfully
+
+2022-05-25 07:32:34 - [MESSAGE][PASSED] - I navigate to YellowFit application
+
+2022-05-25 07:32:34 - [TEST_STEP][PASSED] - I click Account button: I click Account button
+
+2022-05-25 07:32:34 - [TEST_CASE][PASSED] - Test Cases/Common/Home - Click Account: Test Cases/Common/Home - Click Account
+
+2022-05-25 07:32:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home/link_account")): Object: 'Object Repository/Home/link_account' is clicked on
+
+2022-05-25 07:32:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Home/link_account' is clicked on
+
+2022-05-25 07:32:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Home - Click Account' successfully
+
+2022-05-25 07:32:37 - [MESSAGE][PASSED] - I click Account button
+
+2022-05-25 07:32:37 - [TEST_STEP][PASSED] - I click Create Account button: I click Create Account button
+
+2022-05-25 07:32:37 - [TEST_CASE][PASSED] - Test Cases/Common/Login - Click Create Account: Test Cases/Common/Login - Click Create Account
+
+2022-05-25 07:32:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/btn_create_account")): Object: 'Object Repository/Login/btn_create_account' is clicked on
+
+2022-05-25 07:32:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btn_create_account' is clicked on
+
+2022-05-25 07:32:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Login - Click Create Account' successfully
+
+2022-05-25 07:32:40 - [MESSAGE][PASSED] - I click Create Account button
+
+2022-05-25 07:32:40 - [TEST_STEP][PASSED] - I input firstname , lastname Grace, date 10, month 10, year 2000, phone 08112233440011, email delf_test2@gmail.com, and password HwXnxaZD17M=: I input firstname , lastname Grace, date 10, month 10, year 2000, phone 08112233440011, email delf_test2@gmail.com, and password HwXnxaZD17M=
+
+2022-05-25 07:32:40 - [TEST_CASE][PASSED] - Test Cases/Common/Register - Fill registration form: Test Cases/Common/Register - Fill registration form
+
+2022-05-25 07:32:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register/input_first_name"), firstname): Text '' is set on object 'Object Repository/Register/input_first_name'
+
+2022-05-25 07:32:41 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Register/input_first_name'
+
+2022-05-25 07:32:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register/input_last_name"), lastname): Text 'Grace' is set on object 'Object Repository/Register/input_last_name'
+
+2022-05-25 07:32:42 - [MESSAGE][PASSED] - Text 'Grace' is set on object 'Object Repository/Register/input_last_name'
+
+2022-05-25 07:32:42 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Register/dd_day"), date, true): All options with value '10' are selected in object 'Object Repository/Register/dd_day'  using regular expression
+
+2022-05-25 07:32:43 - [MESSAGE][PASSED] - All options with value '10' are selected in object 'Object Repository/Register/dd_day'  using regular expression
+
+2022-05-25 07:32:43 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Register/dd_month"), month, true): All options with value '10' are selected in object 'Object Repository/Register/dd_month'  using regular expression
+
+2022-05-25 07:32:44 - [MESSAGE][PASSED] - All options with value '10' are selected in object 'Object Repository/Register/dd_month'  using regular expression
+
+2022-05-25 07:32:44 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Register/dd_year"), year, true): All options with value '2000' are selected in object 'Object Repository/Register/dd_year'  using regular expression
+
+2022-05-25 07:32:47 - [MESSAGE][PASSED] - All options with value '2000' are selected in object 'Object Repository/Register/dd_year'  using regular expression
+
+2022-05-25 07:32:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register/input_phone_whatsapp"), phone): Text '08112233440011' is set on object 'Object Repository/Register/input_phone_whatsapp'
+
+2022-05-25 07:32:48 - [MESSAGE][PASSED] - Text '08112233440011' is set on object 'Object Repository/Register/input_phone_whatsapp'
+
+2022-05-25 07:32:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register/input_email"), email): Text 'delf_test2@gmail.com' is set on object 'Object Repository/Register/input_email'
+
+2022-05-25 07:32:48 - [MESSAGE][PASSED] - Text 'delf_test2@gmail.com' is set on object 'Object Repository/Register/input_email'
+
+2022-05-25 07:32:48 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Register/input_password"), password): Text ****** has been set on object 'Object Repository/Register/input_password'
+
+2022-05-25 07:32:49 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Register/input_password'
+
+2022-05-25 07:32:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Register - Fill registration form' successfully
+
+2022-05-25 07:32:49 - [MESSAGE][PASSED] - I input firstname , lastname Grace, date 10, month 10, year 2000, phone 08112233440011, email delf_test2@gmail.com, and password HwXnxaZD17M=
+
+2022-05-25 07:32:49 - [TEST_STEP][PASSED] - I click Register button: I click Register button
+
+2022-05-25 07:32:49 - [TEST_CASE][PASSED] - Test Cases/Common/Register - Click Register: Test Cases/Common/Register - Click Register
+
+2022-05-25 07:32:49 - [TEST_STEP][PASSED] - click(findTestObject("Register/btn_register")): Object: 'Object Repository/Register/btn_register' is clicked on
+
+2022-05-25 07:32:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/btn_register' is clicked on
+
+2022-05-25 07:32:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Register - Click Register' successfully
+
+2022-05-25 07:32:49 - [MESSAGE][PASSED] - I click Register button
+
+2022-05-25 07:32:49 - [TEST_STEP][PASSED] - I should see error 'First Name tidak boleh kosong!': I should see error 'First Name tidak boleh kosong!'
+
+2022-05-25 07:32:49 - [TEST_CASE][PASSED] - Test Cases/Common/Register - Verify error empty firstname: Test Cases/Common/Register - Verify error empty firstname
+
+2022-05-25 07:32:50 - [TEST_STEP][PASSED] - customKeyword.verifyErrorMessage("Failed", "First Name tidak boleh kosong!"): customKeyword.verifyErrorMessage is PASSED
+
+2022-05-25 07:32:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-25 07:32:50 - [MESSAGE][PASSED] - Object 'Object Repository/Login/mdl_failed' is present
+
+2022-05-25 07:32:50 - [MESSAGE][PASSED] - Text 'Failed' is present on page 
+
+2022-05-25 07:32:51 - [MESSAGE][PASSED] - Text 'First Name tidak boleh kosong!' is present on page 
+
+2022-05-25 07:32:51 - [MESSAGE][PASSED] - customKeyword.verifyErrorMessage is PASSED
+
+2022-05-25 07:32:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Register - Verify error empty firstname' successfully
+
+2022-05-25 07:32:51 - [MESSAGE][PASSED] - I should see error 'First Name tidak boleh kosong!'
+
+2022-05-25 07:32:51 - [MESSAGE][PASSED] - Feature file: 'Include/features/Register.feature' was passed
+
+2022-05-25 07:32:51 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Browser is closed
+
+2022-05-25 07:32:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-05-25 07:32:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register/Neg - Register with empty phone" time="39.175" classname="Test Cases/Register/Neg - Register with empty phone" status="PASSED">
+         <system-out><![CDATA[2022-05-25 07:32:51 - [TEST_CASE][PASSED] - Test Cases/Register/Neg - Register with empty phone: Test Cases/Register/Neg - Register with empty phone
+
+2022-05-25 07:32:51 - [TEST_STEP][PASSED] - runFeatureFileWithTags("Include/features/Register.feature", "@Empty_phone"): Feature file: 'Include/features/Register.feature' was passed
+
+2022-05-25 07:32:51 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Register.feature' and extract report to folder: '/Users/meitridelfiza/git/yellowfit-web-automation/Reports/20220525_073123/Test Suite Register/20220525_073123/cucumber_report/1653438771542'...
+
+2022-05-25 07:32:51 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Register with empty phone: SCENARIO Register with empty phone
+
+2022-05-25 07:32:51 - [TEST_STEP][PASSED] - I navigate to YellowFit application: I navigate to YellowFit application
+
+2022-05-25 07:32:51 - [TEST_CASE][PASSED] - Test Cases/Common/Home - Load home page: Test Cases/Common/Home - Load home page
+
+2022-05-25 07:32:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-25 07:32:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-25 07:32:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-25 07:32:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-25 07:32:54 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://yellowfitkitchen.com/' successfully
+
+2022-05-25 07:33:13 - [MESSAGE][PASSED] - Navigate to 'https://yellowfitkitchen.com/' successfully
+
+2022-05-25 07:33:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Home - Load home page' successfully
+
+2022-05-25 07:33:13 - [MESSAGE][PASSED] - I navigate to YellowFit application
+
+2022-05-25 07:33:13 - [TEST_STEP][PASSED] - I click Account button: I click Account button
+
+2022-05-25 07:33:13 - [TEST_CASE][PASSED] - Test Cases/Common/Home - Click Account: Test Cases/Common/Home - Click Account
+
+2022-05-25 07:33:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home/link_account")): Object: 'Object Repository/Home/link_account' is clicked on
+
+2022-05-25 07:33:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Home/link_account' is clicked on
+
+2022-05-25 07:33:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Home - Click Account' successfully
+
+2022-05-25 07:33:17 - [MESSAGE][PASSED] - I click Account button
+
+2022-05-25 07:33:17 - [TEST_STEP][PASSED] - I click Create Account button: I click Create Account button
+
+2022-05-25 07:33:17 - [TEST_CASE][PASSED] - Test Cases/Common/Login - Click Create Account: Test Cases/Common/Login - Click Create Account
+
+2022-05-25 07:33:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/btn_create_account")): Object: 'Object Repository/Login/btn_create_account' is clicked on
+
+2022-05-25 07:33:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btn_create_account' is clicked on
+
+2022-05-25 07:33:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Login - Click Create Account' successfully
+
+2022-05-25 07:33:20 - [MESSAGE][PASSED] - I click Create Account button
+
+2022-05-25 07:33:20 - [TEST_STEP][PASSED] - I input firstname Hazel, lastname Grace, date 10, month 10, year 2000, phone , email delf_test2@gmail.com, and password HwXnxaZD17M=: I input firstname Hazel, lastname Grace, date 10, month 10, year 2000, phone , email delf_test2@gmail.com, and password HwXnxaZD17M=
+
+2022-05-25 07:33:20 - [TEST_CASE][PASSED] - Test Cases/Common/Register - Fill registration form: Test Cases/Common/Register - Fill registration form
+
+2022-05-25 07:33:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register/input_first_name"), firstname): Text 'Hazel' is set on object 'Object Repository/Register/input_first_name'
+
+2022-05-25 07:33:21 - [MESSAGE][PASSED] - Text 'Hazel' is set on object 'Object Repository/Register/input_first_name'
+
+2022-05-25 07:33:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register/input_last_name"), lastname): Text 'Grace' is set on object 'Object Repository/Register/input_last_name'
+
+2022-05-25 07:33:22 - [MESSAGE][PASSED] - Text 'Grace' is set on object 'Object Repository/Register/input_last_name'
+
+2022-05-25 07:33:22 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Register/dd_day"), date, true): All options with value '10' are selected in object 'Object Repository/Register/dd_day'  using regular expression
+
+2022-05-25 07:33:23 - [MESSAGE][PASSED] - All options with value '10' are selected in object 'Object Repository/Register/dd_day'  using regular expression
+
+2022-05-25 07:33:23 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Register/dd_month"), month, true): All options with value '10' are selected in object 'Object Repository/Register/dd_month'  using regular expression
+
+2022-05-25 07:33:24 - [MESSAGE][PASSED] - All options with value '10' are selected in object 'Object Repository/Register/dd_month'  using regular expression
+
+2022-05-25 07:33:24 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Register/dd_year"), year, true): All options with value '2000' are selected in object 'Object Repository/Register/dd_year'  using regular expression
+
+2022-05-25 07:33:26 - [MESSAGE][PASSED] - All options with value '2000' are selected in object 'Object Repository/Register/dd_year'  using regular expression
+
+2022-05-25 07:33:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register/input_phone_whatsapp"), phone): Text '' is set on object 'Object Repository/Register/input_phone_whatsapp'
+
+2022-05-25 07:33:27 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Register/input_phone_whatsapp'
+
+2022-05-25 07:33:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register/input_email"), email): Text 'delf_test2@gmail.com' is set on object 'Object Repository/Register/input_email'
+
+2022-05-25 07:33:28 - [MESSAGE][PASSED] - Text 'delf_test2@gmail.com' is set on object 'Object Repository/Register/input_email'
+
+2022-05-25 07:33:28 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Register/input_password"), password): Text ****** has been set on object 'Object Repository/Register/input_password'
+
+2022-05-25 07:33:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Register/input_password'
+
+2022-05-25 07:33:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Register - Fill registration form' successfully
+
+2022-05-25 07:33:28 - [MESSAGE][PASSED] - I input firstname Hazel, lastname Grace, date 10, month 10, year 2000, phone , email delf_test2@gmail.com, and password HwXnxaZD17M=
+
+2022-05-25 07:33:28 - [TEST_STEP][PASSED] - I click Register button: I click Register button
+
+2022-05-25 07:33:28 - [TEST_CASE][PASSED] - Test Cases/Common/Register - Click Register: Test Cases/Common/Register - Click Register
+
+2022-05-25 07:33:28 - [TEST_STEP][PASSED] - click(findTestObject("Register/btn_register")): Object: 'Object Repository/Register/btn_register' is clicked on
+
+2022-05-25 07:33:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/btn_register' is clicked on
+
+2022-05-25 07:33:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Register - Click Register' successfully
+
+2022-05-25 07:33:29 - [MESSAGE][PASSED] - I click Register button
+
+2022-05-25 07:33:29 - [TEST_STEP][PASSED] - I should see error 'Phone tidak boleh kosong!': I should see error 'Phone tidak boleh kosong!'
+
+2022-05-25 07:33:29 - [TEST_CASE][PASSED] - Test Cases/Common/Register - Verify error empty phone: Test Cases/Common/Register - Verify error empty phone
+
+2022-05-25 07:33:29 - [TEST_STEP][PASSED] - customKeyword.verifyErrorMessage("Failed", "Phone tidak boleh kosong!"): customKeyword.verifyErrorMessage is PASSED
+
+2022-05-25 07:33:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-25 07:33:29 - [MESSAGE][PASSED] - Object 'Object Repository/Login/mdl_failed' is present
+
+2022-05-25 07:33:30 - [MESSAGE][PASSED] - Text 'Failed' is present on page 
+
+2022-05-25 07:33:30 - [MESSAGE][PASSED] - Text 'Phone tidak boleh kosong!' is present on page 
+
+2022-05-25 07:33:30 - [MESSAGE][PASSED] - customKeyword.verifyErrorMessage is PASSED
+
+2022-05-25 07:33:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Register - Verify error empty phone' successfully
+
+2022-05-25 07:33:30 - [MESSAGE][PASSED] - I should see error 'Phone tidak boleh kosong!'
+
+2022-05-25 07:33:30 - [MESSAGE][PASSED] - Feature file: 'Include/features/Register.feature' was passed
+
+2022-05-25 07:33:30 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Browser is closed
+
+2022-05-25 07:33:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-05-25 07:33:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register/Neg - Register with invalid email format" time="35.267" classname="Test Cases/Register/Neg - Register with invalid email format" status="PASSED">
+         <system-out><![CDATA[2022-05-25 07:33:30 - [TEST_CASE][PASSED] - Test Cases/Register/Neg - Register with invalid email format: Test Cases/Register/Neg - Register with invalid email format
+
+2022-05-25 07:33:30 - [TEST_STEP][PASSED] - runFeatureFileWithTags("Include/features/Register.feature", "@Invalid_email_format"): Feature file: 'Include/features/Register.feature' was passed
+
+2022-05-25 07:33:30 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Register.feature' and extract report to folder: '/Users/meitridelfiza/git/yellowfit-web-automation/Reports/20220525_073123/Test Suite Register/20220525_073123/cucumber_report/1653438810703'...
+
+2022-05-25 07:33:30 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Register with invalid email format: SCENARIO Register with invalid email format
+
+2022-05-25 07:33:30 - [TEST_STEP][PASSED] - I navigate to YellowFit application: I navigate to YellowFit application
+
+2022-05-25 07:33:30 - [TEST_CASE][PASSED] - Test Cases/Common/Home - Load home page: Test Cases/Common/Home - Load home page
+
+2022-05-25 07:33:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-25 07:33:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-25 07:33:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-25 07:33:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-25 07:33:33 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://yellowfitkitchen.com/' successfully
+
+2022-05-25 07:33:45 - [MESSAGE][PASSED] - Navigate to 'https://yellowfitkitchen.com/' successfully
+
+2022-05-25 07:33:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Home - Load home page' successfully
+
+2022-05-25 07:33:45 - [MESSAGE][PASSED] - I navigate to YellowFit application
+
+2022-05-25 07:33:45 - [TEST_STEP][PASSED] - I click Account button: I click Account button
+
+2022-05-25 07:33:45 - [TEST_CASE][PASSED] - Test Cases/Common/Home - Click Account: Test Cases/Common/Home - Click Account
+
+2022-05-25 07:33:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home/link_account")): Object: 'Object Repository/Home/link_account' is clicked on
+
+2022-05-25 07:33:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Home/link_account' is clicked on
+
+2022-05-25 07:33:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Home - Click Account' successfully
+
+2022-05-25 07:33:52 - [MESSAGE][PASSED] - I click Account button
+
+2022-05-25 07:33:52 - [TEST_STEP][PASSED] - I click Create Account button: I click Create Account button
+
+2022-05-25 07:33:52 - [TEST_CASE][PASSED] - Test Cases/Common/Login - Click Create Account: Test Cases/Common/Login - Click Create Account
+
+2022-05-25 07:33:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/btn_create_account")): Object: 'Object Repository/Login/btn_create_account' is clicked on
+
+2022-05-25 07:33:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btn_create_account' is clicked on
+
+2022-05-25 07:33:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Login - Click Create Account' successfully
+
+2022-05-25 07:33:55 - [MESSAGE][PASSED] - I click Create Account button
+
+2022-05-25 07:33:55 - [TEST_STEP][PASSED] - I input firstname Hazel, lastname Grace, date 10, month 10, year 2000, phone 08112233440011, email ab12, and password HwXnxaZD17M=: I input firstname Hazel, lastname Grace, date 10, month 10, year 2000, phone 08112233440011, email ab12, and password HwXnxaZD17M=
+
+2022-05-25 07:33:55 - [TEST_CASE][PASSED] - Test Cases/Common/Register - Fill registration form: Test Cases/Common/Register - Fill registration form
+
+2022-05-25 07:33:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register/input_first_name"), firstname): Text 'Hazel' is set on object 'Object Repository/Register/input_first_name'
+
+2022-05-25 07:33:56 - [MESSAGE][PASSED] - Text 'Hazel' is set on object 'Object Repository/Register/input_first_name'
+
+2022-05-25 07:33:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register/input_last_name"), lastname): Text 'Grace' is set on object 'Object Repository/Register/input_last_name'
+
+2022-05-25 07:33:57 - [MESSAGE][PASSED] - Text 'Grace' is set on object 'Object Repository/Register/input_last_name'
+
+2022-05-25 07:33:57 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Register/dd_day"), date, true): All options with value '10' are selected in object 'Object Repository/Register/dd_day'  using regular expression
+
+2022-05-25 07:33:58 - [MESSAGE][PASSED] - All options with value '10' are selected in object 'Object Repository/Register/dd_day'  using regular expression
+
+2022-05-25 07:33:58 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Register/dd_month"), month, true): All options with value '10' are selected in object 'Object Repository/Register/dd_month'  using regular expression
+
+2022-05-25 07:33:59 - [MESSAGE][PASSED] - All options with value '10' are selected in object 'Object Repository/Register/dd_month'  using regular expression
+
+2022-05-25 07:33:59 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Register/dd_year"), year, true): All options with value '2000' are selected in object 'Object Repository/Register/dd_year'  using regular expression
+
+2022-05-25 07:34:01 - [MESSAGE][PASSED] - All options with value '2000' are selected in object 'Object Repository/Register/dd_year'  using regular expression
+
+2022-05-25 07:34:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register/input_phone_whatsapp"), phone): Text '08112233440011' is set on object 'Object Repository/Register/input_phone_whatsapp'
+
+2022-05-25 07:34:02 - [MESSAGE][PASSED] - Text '08112233440011' is set on object 'Object Repository/Register/input_phone_whatsapp'
+
+2022-05-25 07:34:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register/input_email"), email): Text 'ab12' is set on object 'Object Repository/Register/input_email'
+
+2022-05-25 07:34:03 - [MESSAGE][PASSED] - Text 'ab12' is set on object 'Object Repository/Register/input_email'
+
+2022-05-25 07:34:03 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Register/input_password"), password): Text ****** has been set on object 'Object Repository/Register/input_password'
+
+2022-05-25 07:34:03 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Register/input_password'
+
+2022-05-25 07:34:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Register - Fill registration form' successfully
+
+2022-05-25 07:34:03 - [MESSAGE][PASSED] - I input firstname Hazel, lastname Grace, date 10, month 10, year 2000, phone 08112233440011, email ab12, and password HwXnxaZD17M=
+
+2022-05-25 07:34:03 - [TEST_STEP][PASSED] - I click Register button: I click Register button
+
+2022-05-25 07:34:03 - [TEST_CASE][PASSED] - Test Cases/Common/Register - Click Register: Test Cases/Common/Register - Click Register
+
+2022-05-25 07:34:04 - [TEST_STEP][PASSED] - click(findTestObject("Register/btn_register")): Object: 'Object Repository/Register/btn_register' is clicked on
+
+2022-05-25 07:34:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/btn_register' is clicked on
+
+2022-05-25 07:34:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Register - Click Register' successfully
+
+2022-05-25 07:34:04 - [MESSAGE][PASSED] - I click Register button
+
+2022-05-25 07:34:04 - [TEST_STEP][PASSED] - I should see error 'masukan email yang benar!': I should see error 'masukan email yang benar!'
+
+2022-05-25 07:34:04 - [TEST_CASE][PASSED] - Test Cases/Common/Login - Verify error invalid email format: Test Cases/Common/Login - Verify error invalid email format
+
+2022-05-25 07:34:04 - [TEST_STEP][PASSED] - customKeyword.verifyErrorMessage("Failed", "masukan email yang benar!"): customKeyword.verifyErrorMessage is PASSED
+
+2022-05-25 07:34:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-25 07:34:05 - [MESSAGE][PASSED] - Object 'Object Repository/Login/mdl_failed' is present
+
+2022-05-25 07:34:05 - [MESSAGE][PASSED] - Text 'Failed' is present on page 
+
+2022-05-25 07:34:05 - [MESSAGE][PASSED] - Text 'masukan email yang benar!' is present on page 
+
+2022-05-25 07:34:05 - [MESSAGE][PASSED] - customKeyword.verifyErrorMessage is PASSED
+
+2022-05-25 07:34:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Login - Verify error invalid email format' successfully
+
+2022-05-25 07:34:05 - [MESSAGE][PASSED] - I should see error 'masukan email yang benar!'
+
+2022-05-25 07:34:05 - [MESSAGE][PASSED] - Feature file: 'Include/features/Register.feature' was passed
+
+2022-05-25 07:34:05 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Browser is closed
+
+2022-05-25 07:34:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-05-25 07:34:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-05-25 07:31:27 - [TEST_SUITE][FAILED] - Test Suite Register: Test Cases/Register/Register with valid data FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/Register.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFileWithTags_closure2.doCall(CucumberBuiltinKeywords.groovy:210)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFileWithTags_closure2.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFileWithTags(CucumberBuiltinKeywords.groovy:164)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFileWithTags.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFileWithTags(CucumberBuiltinKeywords.groovy:287)
+	at Register with valid data.run(Register with valid data:3)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1653438683343.run(TempTestSuite1653438683343.groovy:36)]]></system-out>
+      <system-err><![CDATA[2022-05-25 07:31:27 - [TEST_SUITE][FAILED] - Test Suite Register: Test Cases/Register/Register with valid data FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/Register.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFileWithTags_closure2.doCall(CucumberBuiltinKeywords.groovy:210)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFileWithTags_closure2.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFileWithTags(CucumberBuiltinKeywords.groovy:164)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFileWithTags.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFileWithTags(CucumberBuiltinKeywords.groovy:287)
+	at Register with valid data.run(Register with valid data:3)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1653438683343.run(TempTestSuite1653438683343.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

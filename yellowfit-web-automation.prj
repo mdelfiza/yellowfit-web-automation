@@ -6,6 +6,7 @@
    <UUID>3149f7f5-bbb7-4bfc-bd2c-91aa35959b4a</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>/Users/meitridelfiza/git/yellowfit-web-automation/yellowfit-web-automation.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

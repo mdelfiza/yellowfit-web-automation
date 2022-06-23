@@ -1,0 +1,6 @@
+{"testCaseName":"Test Cases/Login/Login with valid credentials","testCaseId":"Test Cases/Login/Login with valid credentials"}
+{"testCaseName":"Test Cases/Login/Neg - Login with invalid email format","testCaseId":"Test Cases/Login/Neg - Login with invalid email format"}
+{"testCaseName":"Test Cases/Login/Neg - Login with unregistered email","testCaseId":"Test Cases/Login/Neg - Login with unregistered email"}
+{"testCaseName":"Test Cases/Login/Neg - Login with empty email","testCaseId":"Test Cases/Login/Neg - Login with empty email"}
+{"testCaseName":"Test Cases/Login/Neg - Login with incorrect password","testCaseId":"Test Cases/Login/Neg - Login with incorrect password"}
+{"testCaseName":"Test Cases/Login/Neg - Login with empty password","testCaseId":"Test Cases/Login/Neg - Login with empty password"}

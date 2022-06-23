@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite Register,Chrome 101.0.4951.64,,,2022-05-25 10:05:56,2022-05-25 10:08:00,2m - 4.571s,FAILED
+,,,,,,,
+Test Cases/Register/Register with valid data,Chrome 101.0.4951.64,,,2022-05-25 10:05:56,2022-05-25 10:06:36,39.881s,FAILED
+"runFeatureFileWithTags(""Include/features/Register.feature"", ""@Valid_data"")",Chrome 101.0.4951.64,,,2022-05-25 10:05:56,2022-05-25 10:06:34,37.626s,FAILED
+Start listener action : afterTestCase,Chrome 101.0.4951.64,,,2022-05-25 10:06:34,2022-05-25 10:06:36,2.153s,PASSED
+,,,,,,,
+Test Cases/Register/Neg - Register with empty firstname,Chrome 101.0.4951.64,,,2022-05-25 10:06:36,2022-05-25 10:07:22,46.119s,PASSED
+"runFeatureFileWithTags(""Include/features/Register.feature"", ""@Empty_firstname"")",Chrome 101.0.4951.64,,,2022-05-25 10:06:36,2022-05-25 10:07:22,45.936s,PASSED
+Start listener action : afterTestCase,Chrome 101.0.4951.64,,,2022-05-25 10:07:22,2022-05-25 10:07:22,0.092s,PASSED
+,,,,,,,
+Test Cases/Register/Neg - Register with invalid email format,Chrome 101.0.4951.64,,,2022-05-25 10:07:22,2022-05-25 10:08:00,38.148s,PASSED
+"runFeatureFileWithTags(""Include/features/Register.feature"", ""@Invalid_email_format"")",Chrome 101.0.4951.64,,,2022-05-25 10:07:22,2022-05-25 10:08:00,38.023s,PASSED
+Start listener action : afterTestCase,Chrome 101.0.4951.64,,,2022-05-25 10:08:00,2022-05-25 10:08:00,0.088s,PASSED

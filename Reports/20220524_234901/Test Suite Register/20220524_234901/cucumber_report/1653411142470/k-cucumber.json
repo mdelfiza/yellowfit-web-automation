@@ -1,0 +1,153 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "4af04547-43b0-499d-b3a5-a3e027cc6fbd",
+        "line": 120,
+        "name": "Register with invalid password",
+        "description": "",
+        "id": "register-feature;register-with-invalid-password;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6512670666,
+              "status": "passed"
+            },
+            "line": 111,
+            "name": "I navigate to YellowFit application",
+            "match": {
+              "location": "Common.I_navigate_to_YellowFit_application()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "989f8717-10f2-4229-b965-416c0993a1b0"
+          },
+          {
+            "result": {
+              "duration": 2674977208,
+              "status": "passed"
+            },
+            "line": 112,
+            "name": "I click Account button",
+            "match": {
+              "location": "login.I_click_Account_button()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "bfdf69ba-e652-4898-9dce-70c42bd442a2"
+          },
+          {
+            "result": {
+              "duration": 2476605584,
+              "status": "passed"
+            },
+            "line": 113,
+            "name": "I click Create Account button",
+            "match": {
+              "location": "Register.I_click_create_account_button()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "c071ee85-e86e-4b99-ac36-3fd2b4b88b46"
+          },
+          {
+            "result": {
+              "duration": 8153343084,
+              "status": "passed"
+            },
+            "line": 114,
+            "name": "I input firstname Hazel, lastname Grace, date 10, month 10, year 2000, phone 08112233440011, email delf_test2@gmail.com, and password a1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hazel",
+                  "offset": 18
+                },
+                {
+                  "val": "Grace",
+                  "offset": 34
+                },
+                {
+                  "val": "10",
+                  "offset": 46
+                },
+                {
+                  "val": "10",
+                  "offset": 56
+                },
+                {
+                  "val": "2000",
+                  "offset": 65
+                },
+                {
+                  "val": "08112233440011",
+                  "offset": 77
+                },
+                {
+                  "val": "delf_test2@gmail.com",
+                  "offset": 99
+                },
+                {
+                  "val": " a1",
+                  "offset": 133
+                }
+              ],
+              "location": "Register.I_verify_the_status_in_step(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "ecefd3c5-4f44-478a-b9fa-9f959e47251c"
+          },
+          {
+            "result": {
+              "duration": 533732542,
+              "status": "passed"
+            },
+            "line": 115,
+            "name": "I click Register button",
+            "match": {
+              "location": "Register.I_click_register_button()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "e4e145f2-f6c8-4e7b-8d5e-f77a5f75c4a3"
+          },
+          {
+            "result": {
+              "duration": 1339430792,
+              "status": "passed"
+            },
+            "line": 116,
+            "name": "I should see error \u0027Password harus 4-15 Digit hanya berisi karakter, angka numerik, garis bawah!\u0027",
+            "match": {
+              "location": "Register.Error_invalid_password()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "e6759e6c-2e40-476c-a1cc-72c62ee6ef7b"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Register"
+          },
+          {
+            "name": "@Invalid_password"
+          }
+        ]
+      }
+    ],
+    "name": "Register feature",
+    "description": "  I want to register to YellowFit application",
+    "id": "register-feature",
+    "keyword": "Feature",
+    "uri": "/Users/meitridelfiza/git/yellowfit-web-automation/Include/features/Register.feature",
+    "tags": [
+      {
+        "name": "@Register",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

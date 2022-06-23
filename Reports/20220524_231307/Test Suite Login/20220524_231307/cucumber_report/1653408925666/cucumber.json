@@ -1,0 +1,110 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 75,
+        "name": "Login with valid email and empty password",
+        "description": "",
+        "id": "login-feature;login-with-valid-email-and-empty-password;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12723063625,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "I navigate to YellowFit application",
+            "match": {
+              "location": "Common.I_navigate_to_YellowFit_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3457441458,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "I click Account button",
+            "match": {
+              "location": "login.I_click_Account_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2100035583,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "I enter email mdelfiza@gmail.com and password ",
+            "match": {
+              "arguments": [
+                {
+                  "val": " mdelfiza@gmail.com",
+                  "offset": 13
+                },
+                {
+                  "val": " ",
+                  "offset": 45
+                }
+              ],
+              "location": "login.I_enter_email_and_password(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 571962958,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "I click Login button",
+            "match": {
+              "location": "login.I_click_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1390259625,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "I should see error \u0027Password tidak boleh kosong!\u0027",
+            "match": {
+              "location": "login.Error_password_tidak_boleh_kosong()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@Empty_password"
+          }
+        ]
+      }
+    ],
+    "name": "Login feature",
+    "description": "  I want to login to the YellowFit application",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "/Users/meitridelfiza/git/yellowfit-web-automation/Include/features/Login.feature",
+    "tags": [
+      {
+        "name": "@Login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

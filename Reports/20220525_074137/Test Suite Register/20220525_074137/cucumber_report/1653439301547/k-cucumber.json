@@ -1,0 +1,153 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "0d7a3c00-36bb-4182-9dc1-05c4877ce34d",
+        "line": 16,
+        "name": "Register with valid data",
+        "description": "",
+        "id": "register-feature;register-with-valid-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 25537033958,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to YellowFit application",
+            "match": {
+              "location": "Common.I_navigate_to_YellowFit_application()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "d391a046-5473-4dbb-9dc9-fdab59114466"
+          },
+          {
+            "result": {
+              "duration": 4221210958,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click Account button",
+            "match": {
+              "location": "login.I_click_Account_button()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "98f45a93-788d-4973-9e8c-fca070f9a6cb"
+          },
+          {
+            "result": {
+              "duration": 2195557292,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click Create Account button",
+            "match": {
+              "location": "Register.I_click_create_account_button()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "7f9bb5e8-8768-4566-a467-39aaf62f3609"
+          },
+          {
+            "result": {
+              "duration": 8967704708,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I input firstname Hazel, lastname Grace, date 10, month 10, year 2000, phone 08112233440011, email delf_test10@gmail.com, and password HwXnxaZD17M\u003d",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hazel",
+                  "offset": 18
+                },
+                {
+                  "val": "Grace",
+                  "offset": 34
+                },
+                {
+                  "val": "10",
+                  "offset": 46
+                },
+                {
+                  "val": "10",
+                  "offset": 56
+                },
+                {
+                  "val": "2000",
+                  "offset": 65
+                },
+                {
+                  "val": "08112233440011",
+                  "offset": 77
+                },
+                {
+                  "val": "delf_test10@gmail.com",
+                  "offset": 99
+                },
+                {
+                  "val": " HwXnxaZD17M\u003d",
+                  "offset": 134
+                }
+              ],
+              "location": "Register.I_verify_the_status_in_step(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "f4150da4-7b03-4fbd-baad-3a0571ae20ee"
+          },
+          {
+            "result": {
+              "duration": 3038510500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click Register button",
+            "match": {
+              "location": "Register.I_click_register_button()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "2465ee46-3268-4efd-944b-b8ce5db2b2bd"
+          },
+          {
+            "result": {
+              "duration": 703724417,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should be redirected to Login page",
+            "match": {
+              "location": "Register.I_should_be_redirected_to_Login_page()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "efae632b-0cde-4ec1-9d4a-ba785c84ff7e"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Register"
+          },
+          {
+            "name": "@Valid_data"
+          }
+        ]
+      }
+    ],
+    "name": "Register feature",
+    "description": "  I want to register to YellowFit application",
+    "id": "register-feature",
+    "keyword": "Feature",
+    "uri": "/Users/meitridelfiza/git/yellowfit-web-automation/Include/features/Register.feature",
+    "tags": [
+      {
+        "name": "@Register",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

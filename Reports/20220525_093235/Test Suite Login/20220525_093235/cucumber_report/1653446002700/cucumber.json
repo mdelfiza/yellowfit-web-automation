@@ -1,0 +1,110 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 39,
+        "name": "Login with unregistered email",
+        "description": "",
+        "id": "login-feature;login-with-unregistered-email;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 43218921417,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I navigate to YellowFit application",
+            "match": {
+              "location": "Common.I_navigate_to_YellowFit_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4638365375,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I click Account button",
+            "match": {
+              "location": "login.I_click_Account_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2208611917,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I enter email meitri.delfiza@icehousecorp.com and password pGIjovFIKpdMBmQKKTji5A\u003d\u003d",
+            "match": {
+              "arguments": [
+                {
+                  "val": " meitri.delfiza@icehousecorp.com",
+                  "offset": 13
+                },
+                {
+                  "val": " pGIjovFIKpdMBmQKKTji5A\u003d\u003d",
+                  "offset": 58
+                }
+              ],
+              "location": "login.I_enter_email_and_password(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 622499458,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I click Login button",
+            "match": {
+              "location": "login.I_click_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1507476708,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I should see error \u0027email anda belum terdaftar\u0027",
+            "match": {
+              "location": "login.Error_email_belum_terdaftar()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@Unregistered_email"
+          }
+        ]
+      }
+    ],
+    "name": "Login feature",
+    "description": "  I want to login to the YellowFit application",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "/Users/meitridelfiza/git/yellowfit-web-automation/Include/features/Login.feature",
+    "tags": [
+      {
+        "name": "@Login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

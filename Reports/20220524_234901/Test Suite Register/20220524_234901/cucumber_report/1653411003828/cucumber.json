@@ -1,0 +1,146 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 42,
+        "name": "Register with empty lastname",
+        "description": "",
+        "id": "register-feature;register-with-empty-lastname;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6882863917,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I navigate to YellowFit application",
+            "match": {
+              "location": "Common.I_navigate_to_YellowFit_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2818999583,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I click Account button",
+            "match": {
+              "location": "login.I_click_Account_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2504512750,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I click Create Account button",
+            "match": {
+              "location": "Register.I_click_create_account_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8315081417,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I input firstname Hazel, lastname , date 10, month 10, year 2000, phone 08112233440011, email delf_test2@gmail.com, and password HwXnxaZD17M\u003d",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hazel",
+                  "offset": 18
+                },
+                {
+                  "val": "",
+                  "offset": 34
+                },
+                {
+                  "val": "10",
+                  "offset": 41
+                },
+                {
+                  "val": "10",
+                  "offset": 51
+                },
+                {
+                  "val": "2000",
+                  "offset": 60
+                },
+                {
+                  "val": "08112233440011",
+                  "offset": 72
+                },
+                {
+                  "val": "delf_test2@gmail.com",
+                  "offset": 94
+                },
+                {
+                  "val": " HwXnxaZD17M\u003d",
+                  "offset": 128
+                }
+              ],
+              "location": "Register.I_verify_the_status_in_step(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 531570583,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I click Register button",
+            "match": {
+              "location": "Register.I_click_register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1759327042,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I should see error \u0027Last Name tidak boleh kosong!\u0027",
+            "match": {
+              "location": "Register.Error_Last_Name_tidak_boleh_kosong()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Register"
+          },
+          {
+            "name": "@Empty_lastname"
+          }
+        ]
+      }
+    ],
+    "name": "Register feature",
+    "description": "  I want to register to YellowFit application",
+    "id": "register-feature",
+    "keyword": "Feature",
+    "uri": "/Users/meitridelfiza/git/yellowfit-web-automation/Include/features/Register.feature",
+    "tags": [
+      {
+        "name": "@Register",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

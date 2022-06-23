@@ -1,0 +1,110 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 15,
+        "name": "Login with valid credentials",
+        "description": "",
+        "id": "login-feature;login-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14099660541,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to YellowFit application",
+            "match": {
+              "location": "Common.I_navigate_to_YellowFit_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3458239416,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click Account button",
+            "match": {
+              "location": "login.I_click_Account_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2829492167,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter email mdelfiza@gmail.com and password pGIjovFIKpdMBmQKKTji5A\u003d\u003d",
+            "match": {
+              "arguments": [
+                {
+                  "val": " mdelfiza@gmail.com",
+                  "offset": 13
+                },
+                {
+                  "val": " pGIjovFIKpdMBmQKKTji5A\u003d\u003d",
+                  "offset": 45
+                }
+              ],
+              "location": "login.I_enter_email_and_password(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 818758167,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click Login button",
+            "match": {
+              "location": "login.I_click_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1865442208,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should be able to login successfully",
+            "match": {
+              "location": "login.I_should_be_able_to_login_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@Valid_credentials"
+          }
+        ]
+      }
+    ],
+    "name": "Login feature",
+    "description": "  I want to login to the YellowFit application",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "/Users/meitridelfiza/git/yellowfit-web-automation/Include/features/Login.feature",
+    "tags": [
+      {
+        "name": "@Login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

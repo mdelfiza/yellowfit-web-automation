@@ -1,0 +1,116 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "850fd9e0-0ef8-4560-98f0-4ac46eda51fa",
+        "line": 63,
+        "name": "Login with valid email and incorrect password",
+        "description": "",
+        "id": "login-feature;login-with-valid-email-and-incorrect-password;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 20252402792,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "I navigate to YellowFit application",
+            "match": {
+              "location": "Common.I_navigate_to_YellowFit_application()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "660bdcd5-91ca-4b7b-8007-9d0934d3d095"
+          },
+          {
+            "result": {
+              "duration": 4709108291,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "I click Account button",
+            "match": {
+              "location": "login.I_click_Account_button()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "e264ad06-46c3-4728-9433-0cc137ef2b88"
+          },
+          {
+            "result": {
+              "duration": 1339025000,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "I enter email mdelfiza@gmail.com and password NaRTu7UBtmr+q7eG3gEDOw\u003d\u003d",
+            "match": {
+              "arguments": [
+                {
+                  "val": " mdelfiza@gmail.com",
+                  "offset": 13
+                },
+                {
+                  "val": " NaRTu7UBtmr+q7eG3gEDOw\u003d\u003d",
+                  "offset": 45
+                }
+              ],
+              "location": "login.I_enter_email_and_password(String,String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "7c707d5d-6b9f-4f5a-904b-73fa661b744d"
+          },
+          {
+            "result": {
+              "duration": 558287125,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "I click Login button",
+            "match": {
+              "location": "login.I_click_Login_button()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "53ab5e35-4380-4034-8813-0e2efe6984fd"
+          },
+          {
+            "result": {
+              "duration": 1510052208,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "I should see error \u0027password yang anda masukkan salah!\u0027",
+            "match": {
+              "location": "login.Error_password_salah()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "ea026dac-487e-4a0c-ae1a-538f62cfa2b1"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@Incorrect_password"
+          }
+        ]
+      }
+    ],
+    "name": "Login feature",
+    "description": "  I want to login to the YellowFit application",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "/Users/meitridelfiza/git/yellowfit-web-automation/Include/features/Login.feature",
+    "tags": [
+      {
+        "name": "@Login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

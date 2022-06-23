@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="32.182364">
+<testcase classname="Register feature" name="Register with valid data" time="32.182364">
+<system-out><![CDATA[Given I navigate to YellowFit application...................................passed
+When I click Account button.................................................passed
+And I click Create Account button...........................................passed
+And I input firstname Hazel, lastname Grace, date 10, month 10, year 2000, phone 08112233440011, email delf_test4@gmail.com, and password HwXnxaZD17M=.passed
+And I click Register button.................................................passed
+Then I should be redirected to Login page...................................passed
+]]></system-out>
+</testcase>
+</testsuite>

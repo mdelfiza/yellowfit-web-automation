@@ -6,12 +6,11 @@
    <elementGuidId>9965b16c-cf08-4af9-9d4e-4540a89275a4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;navbarSupportedContent&quot;]/div/a[8]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='navbarSupportedContent']/ul/li[8]/a</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

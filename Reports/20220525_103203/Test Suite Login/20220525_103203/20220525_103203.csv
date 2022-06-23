@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite Login,Chrome 101.0.4951.64,,,2022-05-25 10:32:07,2022-05-25 10:33:04,57.765s,PASSED
+,,,,,,,
+Test Cases/Login/Login with valid credentials,Chrome 101.0.4951.64,,,2022-05-25 10:32:07,2022-05-25 10:32:31,24.310s,PASSED
+"runFeatureFileWithTags(""Include/features/Login.feature"", ""@Valid_credentials"")",Chrome 101.0.4951.64,,,2022-05-25 10:32:07,2022-05-25 10:32:31,23.792s,PASSED
+Start listener action : afterTestCase,Chrome 101.0.4951.64,,,2022-05-25 10:32:31,2022-05-25 10:32:31,0.139s,PASSED
+,,,,,,,
+Test Cases/Login/Neg - Login with unregistered email,Chrome 101.0.4951.64,,,2022-05-25 10:32:31,2022-05-25 10:33:04,33.051s,PASSED
+"runFeatureFileWithTags(""Include/features/Login.feature"", ""@Unregistered_email"")",Chrome 101.0.4951.64,,,2022-05-25 10:32:32,2022-05-25 10:33:04,32.632s,PASSED
+Start listener action : afterTestCase,Chrome 101.0.4951.64,,,2022-05-25 10:33:04,2022-05-25 10:33:04,0.163s,PASSED

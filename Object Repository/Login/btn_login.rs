@@ -6,12 +6,12 @@
    <elementGuidId>f8a9e5f0-7237-4c36-b440-669d31d503ba</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>span.form-control</value>
+         <key>XPATH</key>
+         <value>/html/body/div/div/div/div/form/div[4]/div[1]/button</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//span[@onclick='login();']</value>
+         <key>CSS</key>
+         <value>span.form-control</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login - Input email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>28eb8ba3-0d75-49ae-8e13-34e0950f0363</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>67bae1c7-d4cf-430a-a396-44fbc6d12fb1</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+</TestCaseEntity>

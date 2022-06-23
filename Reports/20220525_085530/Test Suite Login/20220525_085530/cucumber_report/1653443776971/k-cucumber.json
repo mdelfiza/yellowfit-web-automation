@@ -1,0 +1,116 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "f4dd80c5-6c73-4a7b-88e3-d17ee5ea430f",
+        "line": 39,
+        "name": "Login with unregistered email",
+        "description": "",
+        "id": "login-feature;login-with-unregistered-email;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 20617044291,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I navigate to YellowFit application",
+            "match": {
+              "location": "Common.I_navigate_to_YellowFit_application()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "fbfae050-f2cd-4ad3-9385-0970d8de53c4"
+          },
+          {
+            "result": {
+              "duration": 3364743750,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I click Account button",
+            "match": {
+              "location": "login.I_click_Account_button()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "e616acec-864a-45b8-899f-21333ec80d83"
+          },
+          {
+            "result": {
+              "duration": 1809968042,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I enter email meitri.delfiza@icehousecorp.com and password pGIjovFIKpdMBmQKKTji5A\u003d\u003d",
+            "match": {
+              "arguments": [
+                {
+                  "val": " meitri.delfiza@icehousecorp.com",
+                  "offset": 13
+                },
+                {
+                  "val": " pGIjovFIKpdMBmQKKTji5A\u003d\u003d",
+                  "offset": 58
+                }
+              ],
+              "location": "login.I_enter_email_and_password(String,String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "5d5e3e7f-347c-4bcc-bc94-4a941bd5a9e6"
+          },
+          {
+            "result": {
+              "duration": 557517666,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I click Login button",
+            "match": {
+              "location": "login.I_click_Login_button()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "33ee5d1c-3ccc-430c-a516-de7a0eee0c3a"
+          },
+          {
+            "result": {
+              "duration": 4450019459,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I should see error \u0027email anda belum terdaftar\u0027",
+            "match": {
+              "location": "login.Error_email_belum_terdaftar()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "dabe8609-b666-491d-8435-a1e8c70b7dd6"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@Unregistered_email"
+          }
+        ]
+      }
+    ],
+    "name": "Login feature",
+    "description": "  I want to login to the YellowFit application",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "/Users/meitridelfiza/git/yellowfit-web-automation/Include/features/Login.feature",
+    "tags": [
+      {
+        "name": "@Login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

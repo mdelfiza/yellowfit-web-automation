@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="46.051019">
+<testcase classname="Login feature" name="Login with valid email and incorrect password" time="46.051019">
+<system-out><![CDATA[Given I navigate to YellowFit application...................................passed
+When I click Account button.................................................passed
+And I enter email mdelfiza@gmail.com and password NaRTu7UBtmr+q7eG3gEDOw==..passed
+And I click Login button....................................................passed
+Then I should see error 'password yang anda masukkan salah!'................passed
+]]></system-out>
+</testcase>
+</testsuite>

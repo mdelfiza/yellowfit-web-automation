@@ -1,0 +1,153 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "deae7f62-7905-4ef5-9ecd-4eecf7eadc12",
+        "line": 55,
+        "name": "Register with empty phone",
+        "description": "",
+        "id": "register-feature;register-with-empty-phone;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7341338708,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I navigate to YellowFit application",
+            "match": {
+              "location": "Common.I_navigate_to_YellowFit_application()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "29c63126-8d5b-4b81-b7a7-b38e91959cbe"
+          },
+          {
+            "result": {
+              "duration": 2816099000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I click Account button",
+            "match": {
+              "location": "login.I_click_Account_button()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "1949006c-c7dd-4da6-a986-62e0bd0976d2"
+          },
+          {
+            "result": {
+              "duration": 2654185833,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I click Create Account button",
+            "match": {
+              "location": "Register.I_click_create_account_button()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "3d8910ab-cd4c-44f7-bc90-860b3579a092"
+          },
+          {
+            "result": {
+              "duration": 8398137625,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I input firstname Hazel, lastname Grace, date 10, month 10, year 2000, phone , email delf_test2@gmail.com, and password HwXnxaZD17M\u003d",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hazel",
+                  "offset": 18
+                },
+                {
+                  "val": "Grace",
+                  "offset": 34
+                },
+                {
+                  "val": "10",
+                  "offset": 46
+                },
+                {
+                  "val": "10",
+                  "offset": 56
+                },
+                {
+                  "val": "2000",
+                  "offset": 65
+                },
+                {
+                  "val": "",
+                  "offset": 77
+                },
+                {
+                  "val": "delf_test2@gmail.com",
+                  "offset": 85
+                },
+                {
+                  "val": " HwXnxaZD17M\u003d",
+                  "offset": 119
+                }
+              ],
+              "location": "Register.I_verify_the_status_in_step(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "58eb7b25-cb63-4378-b37d-469be7d12744"
+          },
+          {
+            "result": {
+              "duration": 542077834,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I click Register button",
+            "match": {
+              "location": "Register.I_click_register_button()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "85fc00f5-26be-4755-827d-6eb255f13bf9"
+          },
+          {
+            "result": {
+              "duration": 1260477958,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "I should see error \u0027Phone tidak boleh kosong!\u0027",
+            "match": {
+              "location": "Register.Error_Phone_tidak_boleh_kosong()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "e740f13d-9c9a-4b86-9b42-64f6cbd26d73"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Register"
+          },
+          {
+            "name": "@Empty_phone"
+          }
+        ]
+      }
+    ],
+    "name": "Register feature",
+    "description": "  I want to register to YellowFit application",
+    "id": "register-feature",
+    "keyword": "Feature",
+    "uri": "/Users/meitridelfiza/git/yellowfit-web-automation/Include/features/Register.feature",
+    "tags": [
+      {
+        "name": "@Register",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

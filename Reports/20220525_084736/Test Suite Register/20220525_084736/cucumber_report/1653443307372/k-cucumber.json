@@ -1,0 +1,153 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "6a0cbf12-66f9-413b-b0f3-a070253c9e7c",
+        "line": 29,
+        "name": "Register with empty firstname",
+        "description": "",
+        "id": "register-feature;register-with-empty-firstname;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 22887575625,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I navigate to YellowFit application",
+            "match": {
+              "location": "Common.I_navigate_to_YellowFit_application()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "00b31d9b-46d3-4c6b-8fb5-2eb57e600aa7"
+          },
+          {
+            "result": {
+              "duration": 4148851041,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click Account button",
+            "match": {
+              "location": "login.I_click_Account_button()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "f6ea30ac-b1c7-45c0-b59a-8b4d9714daab"
+          },
+          {
+            "result": {
+              "duration": 2630468833,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I click Create Account button",
+            "match": {
+              "location": "Register.I_click_create_account_button()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "5327f717-9799-4564-94bc-565c9f9c5bcc"
+          },
+          {
+            "result": {
+              "duration": 8417344167,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I input firstname , lastname Grace, date 10, month 10, year 2000, phone 08112233440011, email delf_test2@gmail.com, and password HwXnxaZD17M\u003d",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 18
+                },
+                {
+                  "val": "Grace",
+                  "offset": 29
+                },
+                {
+                  "val": "10",
+                  "offset": 41
+                },
+                {
+                  "val": "10",
+                  "offset": 51
+                },
+                {
+                  "val": "2000",
+                  "offset": 60
+                },
+                {
+                  "val": "08112233440011",
+                  "offset": 72
+                },
+                {
+                  "val": "delf_test2@gmail.com",
+                  "offset": 94
+                },
+                {
+                  "val": " HwXnxaZD17M\u003d",
+                  "offset": 128
+                }
+              ],
+              "location": "Register.I_verify_the_status_in_step(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "6d47c892-0d9a-4209-a165-bf0db65bb4fb"
+          },
+          {
+            "result": {
+              "duration": 568764666,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click Register button",
+            "match": {
+              "location": "Register.I_click_register_button()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "68a30a31-4214-41b2-b2e2-c1e50cd07327"
+          },
+          {
+            "result": {
+              "duration": 1512557833,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I should see error \u0027First Name tidak boleh kosong!\u0027",
+            "match": {
+              "location": "Register.Error_First_Name_tidak_boleh_kosong()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "c2b9f4ba-75f8-46fa-946d-a6a60b259dc5"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Register"
+          },
+          {
+            "name": "@Empty_firstname"
+          }
+        ]
+      }
+    ],
+    "name": "Register feature",
+    "description": "  I want to register to YellowFit application",
+    "id": "register-feature",
+    "keyword": "Feature",
+    "uri": "/Users/meitridelfiza/git/yellowfit-web-automation/Include/features/Register.feature",
+    "tags": [
+      {
+        "name": "@Register",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login - Verify UI component</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>49ca4174-e06a-41c7-895c-200ddf4f3aa3</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5e9c5cce-afbe-4615-a80b-ddf4c4579847</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bd280347-2a6b-4c9b-81b0-19379acfc1e1</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

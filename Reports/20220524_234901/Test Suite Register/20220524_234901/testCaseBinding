@@ -1,0 +1,9 @@
+{"testCaseName":"Test Cases/Register/Register with valid data","testCaseId":"Test Cases/Register/Register with valid data"}
+{"testCaseName":"Test Cases/Register/Neg - Register with empty firstname","testCaseId":"Test Cases/Register/Neg - Register with empty firstname"}
+{"testCaseName":"Test Cases/Register/Neg - Register with empty lastname","testCaseId":"Test Cases/Register/Neg - Register with empty lastname"}
+{"testCaseName":"Test Cases/Register/Neg - Register with empty phone","testCaseId":"Test Cases/Register/Neg - Register with empty phone"}
+{"testCaseName":"Test Cases/Register/Neg - Register with empty email","testCaseId":"Test Cases/Register/Neg - Register with empty email"}
+{"testCaseName":"Test Cases/Register/Neg - Register with email already registered","testCaseId":"Test Cases/Register/Neg - Register with email already registered"}
+{"testCaseName":"Test Cases/Register/Neg - Register with invalid email format","testCaseId":"Test Cases/Register/Neg - Register with invalid email format"}
+{"testCaseName":"Test Cases/Register/Neg - Register with empty password","testCaseId":"Test Cases/Register/Neg - Register with empty password"}
+{"testCaseName":"Test Cases/Register/Neg - Register with invalid password","testCaseId":"Test Cases/Register/Neg - Register with invalid password"}

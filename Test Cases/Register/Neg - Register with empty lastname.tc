@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Neg - Register with empty lastname</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9a0eb1ea-7864-47a1-a3f5-c3c239621052</testCaseGuid>
+</TestCaseEntity>

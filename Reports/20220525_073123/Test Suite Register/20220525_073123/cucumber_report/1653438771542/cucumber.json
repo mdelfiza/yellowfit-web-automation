@@ -1,0 +1,146 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 55,
+        "name": "Register with empty phone",
+        "description": "",
+        "id": "register-feature;register-with-empty-phone;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 21989096125,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I navigate to YellowFit application",
+            "match": {
+              "location": "Common.I_navigate_to_YellowFit_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3722505833,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I click Account button",
+            "match": {
+              "location": "login.I_click_Account_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2837077208,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I click Create Account button",
+            "match": {
+              "location": "Register.I_click_create_account_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8492034917,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I input firstname Hazel, lastname Grace, date 10, month 10, year 2000, phone , email delf_test2@gmail.com, and password HwXnxaZD17M\u003d",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hazel",
+                  "offset": 18
+                },
+                {
+                  "val": "Grace",
+                  "offset": 34
+                },
+                {
+                  "val": "10",
+                  "offset": 46
+                },
+                {
+                  "val": "10",
+                  "offset": 56
+                },
+                {
+                  "val": "2000",
+                  "offset": 65
+                },
+                {
+                  "val": "",
+                  "offset": 77
+                },
+                {
+                  "val": "delf_test2@gmail.com",
+                  "offset": 85
+                },
+                {
+                  "val": " HwXnxaZD17M\u003d",
+                  "offset": 119
+                }
+              ],
+              "location": "Register.I_verify_the_status_in_step(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 514114125,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I click Register button",
+            "match": {
+              "location": "Register.I_click_register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1264590792,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "I should see error \u0027Phone tidak boleh kosong!\u0027",
+            "match": {
+              "location": "Register.Error_Phone_tidak_boleh_kosong()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Register"
+          },
+          {
+            "name": "@Empty_phone"
+          }
+        ]
+      }
+    ],
+    "name": "Register feature",
+    "description": "  I want to register to YellowFit application",
+    "id": "register-feature",
+    "keyword": "Feature",
+    "uri": "/Users/meitridelfiza/git/yellowfit-web-automation/Include/features/Register.feature",
+    "tags": [
+      {
+        "name": "@Register",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

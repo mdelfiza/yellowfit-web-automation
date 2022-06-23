@@ -1,0 +1,153 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "a86394e1-c4e7-4dc5-8115-2b2c418e55a6",
+        "line": 81,
+        "name": "Register with invalid email format",
+        "description": "",
+        "id": "register-feature;register-with-invalid-email-format;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 25745502583,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "I navigate to YellowFit application",
+            "match": {
+              "location": "Common.I_navigate_to_YellowFit_application()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "8ad2fb03-e2fa-4c4a-8d2a-f3a6a5afa7d0"
+          },
+          {
+            "result": {
+              "duration": 4039073125,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "I click Account button",
+            "match": {
+              "location": "login.I_click_Account_button()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "bc1ae210-e911-4cab-9675-c9a73913187b"
+          },
+          {
+            "result": {
+              "duration": 2638954500,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "I click Create Account button",
+            "match": {
+              "location": "Register.I_click_create_account_button()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "5900ec37-bf38-4352-91df-5de91717682a"
+          },
+          {
+            "result": {
+              "duration": 8346435625,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "I input firstname Hazel5, lastname Grace5, date 10, month 10, year 2000, phone 08112233440011, email ab12, and password HwXnxaZD17M\u003d",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hazel5",
+                  "offset": 18
+                },
+                {
+                  "val": "Grace5",
+                  "offset": 35
+                },
+                {
+                  "val": "10",
+                  "offset": 48
+                },
+                {
+                  "val": "10",
+                  "offset": 58
+                },
+                {
+                  "val": "2000",
+                  "offset": 67
+                },
+                {
+                  "val": "08112233440011",
+                  "offset": 79
+                },
+                {
+                  "val": "ab12",
+                  "offset": 101
+                },
+                {
+                  "val": " HwXnxaZD17M\u003d",
+                  "offset": 119
+                }
+              ],
+              "location": "Register.I_verify_the_status_in_step(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "eb217b32-e53e-48d4-b817-e3b57e4fe6ba"
+          },
+          {
+            "result": {
+              "duration": 541198041,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "I click Register button",
+            "match": {
+              "location": "Register.I_click_register_button()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "73e398c1-0dfe-4ff1-8691-f13e9e4ef2c5"
+          },
+          {
+            "result": {
+              "duration": 1407435000,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "I should see error \u0027masukan email yang benar!\u0027",
+            "match": {
+              "location": "login.Error_masukan_email_yang_benar()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "acec0433-2cfa-425b-9f67-1258c5891546"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Register"
+          },
+          {
+            "name": "@Invalid_email_format"
+          }
+        ]
+      }
+    ],
+    "name": "Register feature",
+    "description": "  I want to register to YellowFit application",
+    "id": "register-feature",
+    "keyword": "Feature",
+    "uri": "/Users/meitridelfiza/git/yellowfit-web-automation/Include/features/Register.feature",
+    "tags": [
+      {
+        "name": "@Register",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

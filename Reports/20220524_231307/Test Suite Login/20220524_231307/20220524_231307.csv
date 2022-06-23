@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite Login,Chrome 101.0.4951.64,,,2022-05-24 23:13:11,2022-05-24 23:15:46,2m - 34.647s,PASSED
+,,,,,,,
+Test Cases/Login/Login with valid credentials,Chrome 101.0.4951.64,,,2022-05-24 23:13:11,2022-05-24 23:13:36,24.479s,PASSED
+"runFeatureFileWithTags(""Include/features/Login.feature"", ""@Valid_credentials"")",Chrome 101.0.4951.64,,,2022-05-24 23:13:12,2022-05-24 23:13:36,23.923s,PASSED
+Start listener action : afterTestCase,Chrome 101.0.4951.64,,,2022-05-24 23:13:36,2022-05-24 23:13:36,0.156s,PASSED
+,,,,,,,
+Test Cases/Login/Neg - Login with invalid email format,Chrome 101.0.4951.64,,,2022-05-24 23:13:36,2022-05-24 23:13:54,17.559s,PASSED
+"runFeatureFileWithTags(""Include/features/Login.feature"", ""@Invalid_email_format"")",Chrome 101.0.4951.64,,,2022-05-24 23:13:36,2022-05-24 23:13:53,17.048s,PASSED
+Start listener action : afterTestCase,Chrome 101.0.4951.64,,,2022-05-24 23:13:53,2022-05-24 23:13:54,0.200s,PASSED
+,,,,,,,
+Test Cases/Login/Neg - Login with unregistered email,Chrome 101.0.4951.64,,,2022-05-24 23:13:54,2022-05-24 23:14:20,26.535s,PASSED
+"runFeatureFileWithTags(""Include/features/Login.feature"", ""@Unregistered_email"")",Chrome 101.0.4951.64,,,2022-05-24 23:13:54,2022-05-24 23:14:20,26.104s,PASSED
+Start listener action : afterTestCase,Chrome 101.0.4951.64,,,2022-05-24 23:14:20,2022-05-24 23:14:20,0.146s,PASSED
+,,,,,,,
+Test Cases/Login/Neg - Login with empty email,Chrome 101.0.4951.64,,,2022-05-24 23:14:20,2022-05-24 23:14:50,29.403s,PASSED
+"runFeatureFileWithTags(""Include/features/Login.feature"", ""@Empty_email"")",Chrome 101.0.4951.64,,,2022-05-24 23:14:20,2022-05-24 23:14:49,29.122s,PASSED
+Start listener action : afterTestCase,Chrome 101.0.4951.64,,,2022-05-24 23:14:49,2022-05-24 23:14:50,0.151s,PASSED
+,,,,,,,
+Test Cases/Login/Neg - Login with incorrect password,Chrome 101.0.4951.64,,,2022-05-24 23:14:50,2022-05-24 23:15:25,35.455s,PASSED
+"runFeatureFileWithTags(""Include/features/Login.feature"", ""@Incorrect_password"")",Chrome 101.0.4951.64,,,2022-05-24 23:14:50,2022-05-24 23:15:25,35.013s,PASSED
+Start listener action : afterTestCase,Chrome 101.0.4951.64,,,2022-05-24 23:15:25,2022-05-24 23:15:25,0.150s,PASSED
+,,,,,,,
+Test Cases/Login/Neg - Login with empty password,Chrome 101.0.4951.64,,,2022-05-24 23:15:25,2022-05-24 23:15:46,20.768s,PASSED
+"runFeatureFileWithTags(""Include/features/Login.feature"", ""@Empty_password"")",Chrome 101.0.4951.64,,,2022-05-24 23:15:25,2022-05-24 23:15:46,20.417s,PASSED
+Start listener action : afterTestCase,Chrome 101.0.4951.64,,,2022-05-24 23:15:46,2022-05-24 23:15:46,0.157s,PASSED

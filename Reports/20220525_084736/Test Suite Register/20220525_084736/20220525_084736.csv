@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite Register,Chrome 101.0.4951.64,,,2022-05-25 08:47:39,2022-05-25 08:50:17,2m - 37.479s,PASSED
+,,,,,,,
+Test Cases/Register/Register with valid data,Chrome 101.0.4951.64,,,2022-05-25 08:47:39,2022-05-25 08:48:27,47.298s,PASSED
+"runFeatureFileWithTags(""Include/features/Register.feature"", ""@Valid_data"")",Chrome 101.0.4951.64,,,2022-05-25 08:47:40,2022-05-25 08:48:27,47.034s,PASSED
+Start listener action : afterTestCase,Chrome 101.0.4951.64,,,2022-05-25 08:48:27,2022-05-25 08:48:27,0.163s,PASSED
+,,,,,,,
+Test Cases/Register/Neg - Register with empty firstname,Chrome 101.0.4951.64,,,2022-05-25 08:48:27,2022-05-25 08:49:07,40.569s,PASSED
+"runFeatureFileWithTags(""Include/features/Register.feature"", ""@Empty_firstname"")",Chrome 101.0.4951.64,,,2022-05-25 08:48:27,2022-05-25 08:49:07,40.407s,PASSED
+Start listener action : afterTestCase,Chrome 101.0.4951.64,,,2022-05-25 08:49:07,2022-05-25 08:49:07,0.092s,PASSED
+,,,,,,,
+Test Cases/Register/Neg - Register with empty phone,Chrome 101.0.4951.64,,,2022-05-25 08:49:07,2022-05-25 08:49:46,38.245s,PASSED
+"runFeatureFileWithTags(""Include/features/Register.feature"", ""@Empty_phone"")",Chrome 101.0.4951.64,,,2022-05-25 08:49:07,2022-05-25 08:49:46,38.056s,PASSED
+Start listener action : afterTestCase,Chrome 101.0.4951.64,,,2022-05-25 08:49:46,2022-05-25 08:49:46,0.096s,PASSED
+,,,,,,,
+Test Cases/Register/Neg - Register with invalid email format,Chrome 101.0.4951.64,,,2022-05-25 08:49:46,2022-05-25 08:50:17,30.922s,PASSED
+"runFeatureFileWithTags(""Include/features/Register.feature"", ""@Invalid_email_format"")",Chrome 101.0.4951.64,,,2022-05-25 08:49:46,2022-05-25 08:50:16,30.787s,PASSED
+Start listener action : afterTestCase,Chrome 101.0.4951.64,,,2022-05-25 08:50:16,2022-05-25 08:50:17,0.085s,PASSED

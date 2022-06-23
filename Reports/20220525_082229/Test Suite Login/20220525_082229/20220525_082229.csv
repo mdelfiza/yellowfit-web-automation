@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite Login,Chrome 101.0.4951.64,,,2022-05-25 08:22:33,2022-05-25 08:24:34,2m - 1.072s,PASSED
+,,,,,,,
+Test Cases/Login/Login with valid credentials,Chrome 101.0.4951.64,,,2022-05-25 08:22:33,2022-05-25 08:23:04,31.249s,PASSED
+"runFeatureFileWithTags(""Include/features/Login.feature"", ""@Valid_credentials"")",Chrome 101.0.4951.64,,,2022-05-25 08:22:33,2022-05-25 08:23:04,30.620s,PASSED
+Start listener action : afterTestCase,Chrome 101.0.4951.64,,,2022-05-25 08:23:04,2022-05-25 08:23:04,0.227s,PASSED
+,,,,,,,
+Test Cases/Login/Neg - Login with unregistered email,Chrome 101.0.4951.64,,,2022-05-25 08:23:04,2022-05-25 08:23:49,45.048s,PASSED
+"runFeatureFileWithTags(""Include/features/Login.feature"", ""@Unregistered_email"")",Chrome 101.0.4951.64,,,2022-05-25 08:23:05,2022-05-25 08:23:49,44.592s,PASSED
+Start listener action : afterTestCase,Chrome 101.0.4951.64,,,2022-05-25 08:23:49,2022-05-25 08:23:49,0.161s,PASSED
+,,,,,,,
+Test Cases/Login/Neg - Login with incorrect password,Chrome 101.0.4951.64,,,2022-05-25 08:23:49,2022-05-25 08:24:34,44.307s,PASSED
+"runFeatureFileWithTags(""Include/features/Login.feature"", ""@Incorrect_password"")",Chrome 101.0.4951.64,,,2022-05-25 08:23:50,2022-05-25 08:24:34,43.875s,PASSED
+Start listener action : afterTestCase,Chrome 101.0.4951.64,,,2022-05-25 08:24:34,2022-05-25 08:24:34,0.198s,PASSED

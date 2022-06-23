@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite Register" time="146.389" tests="3" failures="0" errors="0">
+   <testsuite name="Test Suite Register" tests="3" failures="0" errors="0" time="146.389" skipped="0" timestamp="2022-05-25 10:26:52" hostname="meitridelfiza - localhost" id="Test Suites/Test Suite Register">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/meitridelfiza/git/yellowfit-web-automation/Reports/20220525_102648/Test Suite Register/20220525_102648"/>
+         <property name="logFiles" value="/Users/meitridelfiza/git/yellowfit-web-automation/Reports/20220525_102648/Test Suite Register/20220525_102648/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="meitridelfiza - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 101.0.4951.64"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="345e63d37734314af5e66c3ef8e3f321"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Register/Register with valid data" time="63.481" classname="Test Cases/Register/Register with valid data" status="PASSED">
+         <system-out><![CDATA[2022-05-25 10:26:52 - [TEST_CASE][PASSED] - Test Cases/Register/Register with valid data: Test Cases/Register/Register with valid data
+
+2022-05-25 10:26:52 - [TEST_STEP][PASSED] - runFeatureFileWithTags("Include/features/Register.feature", "@Valid_data"): Feature file: 'Include/features/Register.feature' was passed
+
+2022-05-25 10:26:52 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Register.feature' and extract report to folder: '/Users/meitridelfiza/git/yellowfit-web-automation/Reports/20220525_102648/Test Suite Register/20220525_102648/cucumber_report/1653449212879'...
+
+2022-05-25 10:26:53 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Register with valid data: SCENARIO Register with valid data
+
+2022-05-25 10:26:53 - [TEST_STEP][PASSED] - I navigate to YellowFit application: I navigate to YellowFit application
+
+2022-05-25 10:26:53 - [TEST_CASE][PASSED] - Test Cases/Common/Home - Load home page: Test Cases/Common/Home - Load home page
+
+2022-05-25 10:26:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-25 10:26:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-25 10:26:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-25 10:26:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-25 10:26:59 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://yellowfitkitchen.com/' successfully
+
+2022-05-25 10:27:31 - [MESSAGE][PASSED] - Navigate to 'https://yellowfitkitchen.com/' successfully
+
+2022-05-25 10:27:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Home - Load home page' successfully
+
+2022-05-25 10:27:31 - [MESSAGE][PASSED] - I navigate to YellowFit application
+
+2022-05-25 10:27:31 - [TEST_STEP][PASSED] - I click Account button: I click Account button
+
+2022-05-25 10:27:31 - [TEST_CASE][PASSED] - Test Cases/Common/Home - Click Account: Test Cases/Common/Home - Click Account
+
+2022-05-25 10:27:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home/link_account")): Object: 'Object Repository/Home/link_account' is clicked on
+
+2022-05-25 10:27:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Home/link_account' is clicked on
+
+2022-05-25 10:27:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Home - Click Account' successfully
+
+2022-05-25 10:27:41 - [MESSAGE][PASSED] - I click Account button
+
+2022-05-25 10:27:41 - [TEST_STEP][PASSED] - I click Create Account button: I click Create Account button
+
+2022-05-25 10:27:41 - [TEST_CASE][PASSED] - Test Cases/Common/Login - Click Create Account: Test Cases/Common/Login - Click Create Account
+
+2022-05-25 10:27:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/btn_create_account")): Object: 'Object Repository/Login/btn_create_account' is clicked on
+
+2022-05-25 10:27:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btn_create_account' is clicked on
+
+2022-05-25 10:27:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Login - Click Create Account' successfully
+
+2022-05-25 10:27:43 - [MESSAGE][PASSED] - I click Create Account button
+
+2022-05-25 10:27:43 - [TEST_STEP][PASSED] - I input firstname Hazel, lastname Grace, date 10, month 10, year 2000, phone 08112233440011, email delf_test17@gmail.com, and password HwXnxaZD17M=: I input firstname Hazel, lastname Grace, date 10, month 10, year 2000, phone 08112233440011, email delf_test17@gmail.com, and password HwXnxaZD17M=
+
+2022-05-25 10:27:44 - [TEST_CASE][PASSED] - Test Cases/Common/Register - Fill registration form: Test Cases/Common/Register - Fill registration form
+
+2022-05-25 10:27:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register/input_first_name"), firstname): Text 'Hazel' is set on object 'Object Repository/Register/input_first_name'
+
+2022-05-25 10:27:45 - [MESSAGE][PASSED] - Text 'Hazel' is set on object 'Object Repository/Register/input_first_name'
+
+2022-05-25 10:27:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register/input_last_name"), lastname): Text 'Grace' is set on object 'Object Repository/Register/input_last_name'
+
+2022-05-25 10:27:45 - [MESSAGE][PASSED] - Text 'Grace' is set on object 'Object Repository/Register/input_last_name'
+
+2022-05-25 10:27:45 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Register/dd_day"), date, true): All options with value '10' are selected in object 'Object Repository/Register/dd_day'  using regular expression
+
+2022-05-25 10:27:46 - [MESSAGE][PASSED] - All options with value '10' are selected in object 'Object Repository/Register/dd_day'  using regular expression
+
+2022-05-25 10:27:46 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Register/dd_month"), month, true): All options with value '10' are selected in object 'Object Repository/Register/dd_month'  using regular expression
+
+2022-05-25 10:27:48 - [MESSAGE][PASSED] - All options with value '10' are selected in object 'Object Repository/Register/dd_month'  using regular expression
+
+2022-05-25 10:27:48 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Register/dd_year"), year, true): All options with value '2000' are selected in object 'Object Repository/Register/dd_year'  using regular expression
+
+2022-05-25 10:27:50 - [MESSAGE][PASSED] - All options with value '2000' are selected in object 'Object Repository/Register/dd_year'  using regular expression
+
+2022-05-25 10:27:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register/input_phone_whatsapp"), phone): Text '08112233440011' is set on object 'Object Repository/Register/input_phone_whatsapp'
+
+2022-05-25 10:27:51 - [MESSAGE][PASSED] - Text '08112233440011' is set on object 'Object Repository/Register/input_phone_whatsapp'
+
+2022-05-25 10:27:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register/input_email"), email): Text 'delf_test17@gmail.com' is set on object 'Object Repository/Register/input_email'
+
+2022-05-25 10:27:51 - [MESSAGE][PASSED] - Text 'delf_test17@gmail.com' is set on object 'Object Repository/Register/input_email'
+
+2022-05-25 10:27:51 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Register/input_password"), password): Text ****** has been set on object 'Object Repository/Register/input_password'
+
+2022-05-25 10:27:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Register/input_password'
+
+2022-05-25 10:27:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Register - Fill registration form' successfully
+
+2022-05-25 10:27:52 - [MESSAGE][PASSED] - I input firstname Hazel, lastname Grace, date 10, month 10, year 2000, phone 08112233440011, email delf_test17@gmail.com, and password HwXnxaZD17M=
+
+2022-05-25 10:27:52 - [TEST_STEP][PASSED] - I click Register button: I click Register button
+
+2022-05-25 10:27:52 - [TEST_CASE][PASSED] - Test Cases/Common/Register - Click Register: Test Cases/Common/Register - Click Register
+
+2022-05-25 10:27:52 - [TEST_STEP][PASSED] - click(findTestObject("Register/btn_register")): Object: 'Object Repository/Register/btn_register' is clicked on
+
+2022-05-25 10:27:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/btn_register' is clicked on
+
+2022-05-25 10:27:53 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-05-25 10:27:55 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-05-25 10:27:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Register - Click Register' successfully
+
+2022-05-25 10:27:55 - [MESSAGE][PASSED] - I click Register button
+
+2022-05-25 10:27:55 - [TEST_STEP][PASSED] - I should be redirected to Login page: I should be redirected to Login page
+
+2022-05-25 10:27:55 - [TEST_CASE][PASSED] - Test Cases/Common/Login - Login page is loaded successfully: Test Cases/Common/Login - Login page is loaded successfully
+
+2022-05-25 10:27:55 - [TEST_STEP][PASSED] - verifyMatch(getUrl(), url + "login", false): Actual text 'https://yellowfitkitchen.com/login' and expected text 'https://yellowfitkitchen.com/login' are matched 
+
+2022-05-25 10:27:55 - [MESSAGE][PASSED] - Current window's url is: 'https://yellowfitkitchen.com/login'
+
+2022-05-25 10:27:55 - [MESSAGE][PASSED] - Actual text 'https://yellowfitkitchen.com/login' and expected text 'https://yellowfitkitchen.com/login' are matched 
+
+2022-05-25 10:27:55 - [TEST_STEP][PASSED] - verifyTextPresent("USER LOGIN", false): Text 'USER LOGIN' is present on page 
+
+2022-05-25 10:27:55 - [MESSAGE][PASSED] - Text 'USER LOGIN' is present on page 
+
+2022-05-25 10:27:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Login - Login page is loaded successfully' successfully
+
+2022-05-25 10:27:55 - [MESSAGE][PASSED] - I should be redirected to Login page
+
+2022-05-25 10:27:55 - [MESSAGE][PASSED] - Feature file: 'Include/features/Register.feature' was passed
+
+2022-05-25 10:27:55 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Browser is closed
+
+2022-05-25 10:27:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-05-25 10:27:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register/Neg - Register with empty firstname" time="35.86" classname="Test Cases/Register/Neg - Register with empty firstname" status="PASSED">
+         <system-out><![CDATA[2022-05-25 10:27:56 - [TEST_CASE][PASSED] - Test Cases/Register/Neg - Register with empty firstname: Test Cases/Register/Neg - Register with empty firstname
+
+2022-05-25 10:27:56 - [TEST_STEP][PASSED] - runFeatureFileWithTags("Include/features/Register.feature", "@Empty_firstname"): Feature file: 'Include/features/Register.feature' was passed
+
+2022-05-25 10:27:56 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Register.feature' and extract report to folder: '/Users/meitridelfiza/git/yellowfit-web-automation/Reports/20220525_102648/Test Suite Register/20220525_102648/cucumber_report/1653449276268'...
+
+2022-05-25 10:27:56 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Register with empty firstname: SCENARIO Register with empty firstname
+
+2022-05-25 10:27:56 - [TEST_STEP][PASSED] - I navigate to YellowFit application: I navigate to YellowFit application
+
+2022-05-25 10:27:56 - [TEST_CASE][PASSED] - Test Cases/Common/Home - Load home page: Test Cases/Common/Home - Load home page
+
+2022-05-25 10:27:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-25 10:27:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-25 10:27:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-25 10:27:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-25 10:27:59 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://yellowfitkitchen.com/' successfully
+
+2022-05-25 10:28:14 - [MESSAGE][PASSED] - Navigate to 'https://yellowfitkitchen.com/' successfully
+
+2022-05-25 10:28:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Home - Load home page' successfully
+
+2022-05-25 10:28:14 - [MESSAGE][PASSED] - I navigate to YellowFit application
+
+2022-05-25 10:28:14 - [TEST_STEP][PASSED] - I click Account button: I click Account button
+
+2022-05-25 10:28:14 - [TEST_CASE][PASSED] - Test Cases/Common/Home - Click Account: Test Cases/Common/Home - Click Account
+
+2022-05-25 10:28:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home/link_account")): Object: 'Object Repository/Home/link_account' is clicked on
+
+2022-05-25 10:28:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Home/link_account' is clicked on
+
+2022-05-25 10:28:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Home - Click Account' successfully
+
+2022-05-25 10:28:18 - [MESSAGE][PASSED] - I click Account button
+
+2022-05-25 10:28:18 - [TEST_STEP][PASSED] - I click Create Account button: I click Create Account button
+
+2022-05-25 10:28:18 - [TEST_CASE][PASSED] - Test Cases/Common/Login - Click Create Account: Test Cases/Common/Login - Click Create Account
+
+2022-05-25 10:28:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/btn_create_account")): Object: 'Object Repository/Login/btn_create_account' is clicked on
+
+2022-05-25 10:28:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btn_create_account' is clicked on
+
+2022-05-25 10:28:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Login - Click Create Account' successfully
+
+2022-05-25 10:28:21 - [MESSAGE][PASSED] - I click Create Account button
+
+2022-05-25 10:28:21 - [TEST_STEP][PASSED] - I input firstname , lastname Grace2, date 10, month 10, year 2000, phone 08112233440011, email delf_test2@gmail.com, and password HwXnxaZD17M=: I input firstname , lastname Grace2, date 10, month 10, year 2000, phone 08112233440011, email delf_test2@gmail.com, and password HwXnxaZD17M=
+
+2022-05-25 10:28:21 - [TEST_CASE][PASSED] - Test Cases/Common/Register - Fill registration form: Test Cases/Common/Register - Fill registration form
+
+2022-05-25 10:28:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register/input_first_name"), firstname): Text '' is set on object 'Object Repository/Register/input_first_name'
+
+2022-05-25 10:28:21 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Register/input_first_name'
+
+2022-05-25 10:28:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register/input_last_name"), lastname): Text 'Grace2' is set on object 'Object Repository/Register/input_last_name'
+
+2022-05-25 10:28:23 - [MESSAGE][PASSED] - Text 'Grace2' is set on object 'Object Repository/Register/input_last_name'
+
+2022-05-25 10:28:23 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Register/dd_day"), date, true): All options with value '10' are selected in object 'Object Repository/Register/dd_day'  using regular expression
+
+2022-05-25 10:28:24 - [MESSAGE][PASSED] - All options with value '10' are selected in object 'Object Repository/Register/dd_day'  using regular expression
+
+2022-05-25 10:28:24 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Register/dd_month"), month, true): All options with value '10' are selected in object 'Object Repository/Register/dd_month'  using regular expression
+
+2022-05-25 10:28:25 - [MESSAGE][PASSED] - All options with value '10' are selected in object 'Object Repository/Register/dd_month'  using regular expression
+
+2022-05-25 10:28:25 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Register/dd_year"), year, true): All options with value '2000' are selected in object 'Object Repository/Register/dd_year'  using regular expression
+
+2022-05-25 10:28:27 - [MESSAGE][PASSED] - All options with value '2000' are selected in object 'Object Repository/Register/dd_year'  using regular expression
+
+2022-05-25 10:28:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register/input_phone_whatsapp"), phone): Text '08112233440011' is set on object 'Object Repository/Register/input_phone_whatsapp'
+
+2022-05-25 10:28:28 - [MESSAGE][PASSED] - Text '08112233440011' is set on object 'Object Repository/Register/input_phone_whatsapp'
+
+2022-05-25 10:28:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register/input_email"), email): Text 'delf_test2@gmail.com' is set on object 'Object Repository/Register/input_email'
+
+2022-05-25 10:28:29 - [MESSAGE][PASSED] - Text 'delf_test2@gmail.com' is set on object 'Object Repository/Register/input_email'
+
+2022-05-25 10:28:29 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Register/input_password"), password): Text ****** has been set on object 'Object Repository/Register/input_password'
+
+2022-05-25 10:28:29 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Register/input_password'
+
+2022-05-25 10:28:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Register - Fill registration form' successfully
+
+2022-05-25 10:28:29 - [MESSAGE][PASSED] - I input firstname , lastname Grace2, date 10, month 10, year 2000, phone 08112233440011, email delf_test2@gmail.com, and password HwXnxaZD17M=
+
+2022-05-25 10:28:29 - [TEST_STEP][PASSED] - I click Register button: I click Register button
+
+2022-05-25 10:28:29 - [TEST_CASE][PASSED] - Test Cases/Common/Register - Click Register: Test Cases/Common/Register - Click Register
+
+2022-05-25 10:28:29 - [TEST_STEP][PASSED] - click(findTestObject("Register/btn_register")): Object: 'Object Repository/Register/btn_register' is clicked on
+
+2022-05-25 10:28:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/btn_register' is clicked on
+
+2022-05-25 10:28:30 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-05-25 10:28:30 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-05-25 10:28:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Register - Click Register' successfully
+
+2022-05-25 10:28:30 - [MESSAGE][PASSED] - I click Register button
+
+2022-05-25 10:28:30 - [TEST_STEP][PASSED] - I should see error 'First Name tidak boleh kosong!': I should see error 'First Name tidak boleh kosong!'
+
+2022-05-25 10:28:30 - [TEST_CASE][PASSED] - Test Cases/Common/Register - Verify error empty firstname: Test Cases/Common/Register - Verify error empty firstname
+
+2022-05-25 10:28:30 - [TEST_STEP][PASSED] - customKeyword.verifyErrorMessage("Failed", "First Name tidak boleh kosong!"): customKeyword.verifyErrorMessage is PASSED
+
+2022-05-25 10:28:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-25 10:28:30 - [MESSAGE][PASSED] - Object 'Object Repository/Login/mdl_failed' is present
+
+2022-05-25 10:28:31 - [MESSAGE][PASSED] - Text 'Failed' is present on page 
+
+2022-05-25 10:28:31 - [MESSAGE][PASSED] - Text 'First Name tidak boleh kosong!' is present on page 
+
+2022-05-25 10:28:31 - [MESSAGE][PASSED] - customKeyword.verifyErrorMessage is PASSED
+
+2022-05-25 10:28:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Register - Verify error empty firstname' successfully
+
+2022-05-25 10:28:31 - [MESSAGE][PASSED] - I should see error 'First Name tidak boleh kosong!'
+
+2022-05-25 10:28:31 - [MESSAGE][PASSED] - Feature file: 'Include/features/Register.feature' was passed
+
+2022-05-25 10:28:31 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Browser is closed
+
+2022-05-25 10:28:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-05-25 10:28:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register/Neg - Register with invalid email format" time="46.579" classname="Test Cases/Register/Neg - Register with invalid email format" status="PASSED">
+         <system-out><![CDATA[2022-05-25 10:28:32 - [TEST_CASE][PASSED] - Test Cases/Register/Neg - Register with invalid email format: Test Cases/Register/Neg - Register with invalid email format
+
+2022-05-25 10:28:32 - [TEST_STEP][PASSED] - runFeatureFileWithTags("Include/features/Register.feature", "@Invalid_email_format"): Feature file: 'Include/features/Register.feature' was passed
+
+2022-05-25 10:28:32 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Register.feature' and extract report to folder: '/Users/meitridelfiza/git/yellowfit-web-automation/Reports/20220525_102648/Test Suite Register/20220525_102648/cucumber_report/1653449312125'...
+
+2022-05-25 10:28:32 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Register with invalid email format: SCENARIO Register with invalid email format
+
+2022-05-25 10:28:32 - [TEST_STEP][PASSED] - I navigate to YellowFit application: I navigate to YellowFit application
+
+2022-05-25 10:28:32 - [TEST_CASE][PASSED] - Test Cases/Common/Home - Load home page: Test Cases/Common/Home - Load home page
+
+2022-05-25 10:28:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-25 10:28:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-25 10:28:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-25 10:28:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-25 10:28:35 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://yellowfitkitchen.com/' successfully
+
+2022-05-25 10:29:00 - [MESSAGE][PASSED] - Navigate to 'https://yellowfitkitchen.com/' successfully
+
+2022-05-25 10:29:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Home - Load home page' successfully
+
+2022-05-25 10:29:00 - [MESSAGE][PASSED] - I navigate to YellowFit application
+
+2022-05-25 10:29:00 - [TEST_STEP][PASSED] - I click Account button: I click Account button
+
+2022-05-25 10:29:00 - [TEST_CASE][PASSED] - Test Cases/Common/Home - Click Account: Test Cases/Common/Home - Click Account
+
+2022-05-25 10:29:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home/link_account")): Object: 'Object Repository/Home/link_account' is clicked on
+
+2022-05-25 10:29:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Home/link_account' is clicked on
+
+2022-05-25 10:29:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Home - Click Account' successfully
+
+2022-05-25 10:29:05 - [MESSAGE][PASSED] - I click Account button
+
+2022-05-25 10:29:05 - [TEST_STEP][PASSED] - I click Create Account button: I click Create Account button
+
+2022-05-25 10:29:05 - [TEST_CASE][PASSED] - Test Cases/Common/Login - Click Create Account: Test Cases/Common/Login - Click Create Account
+
+2022-05-25 10:29:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/btn_create_account")): Object: 'Object Repository/Login/btn_create_account' is clicked on
+
+2022-05-25 10:29:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btn_create_account' is clicked on
+
+2022-05-25 10:29:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Login - Click Create Account' successfully
+
+2022-05-25 10:29:08 - [MESSAGE][PASSED] - I click Create Account button
+
+2022-05-25 10:29:08 - [TEST_STEP][PASSED] - I input firstname Hazel5, lastname Grace5, date 10, month 10, year 2000, phone 08112233440011, email ab12, and password HwXnxaZD17M=: I input firstname Hazel5, lastname Grace5, date 10, month 10, year 2000, phone 08112233440011, email ab12, and password HwXnxaZD17M=
+
+2022-05-25 10:29:08 - [TEST_CASE][PASSED] - Test Cases/Common/Register - Fill registration form: Test Cases/Common/Register - Fill registration form
+
+2022-05-25 10:29:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register/input_first_name"), firstname): Text 'Hazel5' is set on object 'Object Repository/Register/input_first_name'
+
+2022-05-25 10:29:09 - [MESSAGE][PASSED] - Text 'Hazel5' is set on object 'Object Repository/Register/input_first_name'
+
+2022-05-25 10:29:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register/input_last_name"), lastname): Text 'Grace5' is set on object 'Object Repository/Register/input_last_name'
+
+2022-05-25 10:29:10 - [MESSAGE][PASSED] - Text 'Grace5' is set on object 'Object Repository/Register/input_last_name'
+
+2022-05-25 10:29:10 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Register/dd_day"), date, true): All options with value '10' are selected in object 'Object Repository/Register/dd_day'  using regular expression
+
+2022-05-25 10:29:11 - [MESSAGE][PASSED] - All options with value '10' are selected in object 'Object Repository/Register/dd_day'  using regular expression
+
+2022-05-25 10:29:11 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Register/dd_month"), month, true): All options with value '10' are selected in object 'Object Repository/Register/dd_month'  using regular expression
+
+2022-05-25 10:29:12 - [MESSAGE][PASSED] - All options with value '10' are selected in object 'Object Repository/Register/dd_month'  using regular expression
+
+2022-05-25 10:29:12 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Register/dd_year"), year, true): All options with value '2000' are selected in object 'Object Repository/Register/dd_year'  using regular expression
+
+2022-05-25 10:29:14 - [MESSAGE][PASSED] - All options with value '2000' are selected in object 'Object Repository/Register/dd_year'  using regular expression
+
+2022-05-25 10:29:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register/input_phone_whatsapp"), phone): Text '08112233440011' is set on object 'Object Repository/Register/input_phone_whatsapp'
+
+2022-05-25 10:29:15 - [MESSAGE][PASSED] - Text '08112233440011' is set on object 'Object Repository/Register/input_phone_whatsapp'
+
+2022-05-25 10:29:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Register/input_email"), email): Text 'ab12' is set on object 'Object Repository/Register/input_email'
+
+2022-05-25 10:29:16 - [MESSAGE][PASSED] - Text 'ab12' is set on object 'Object Repository/Register/input_email'
+
+2022-05-25 10:29:16 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Register/input_password"), password): Text ****** has been set on object 'Object Repository/Register/input_password'
+
+2022-05-25 10:29:16 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Register/input_password'
+
+2022-05-25 10:29:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Register - Fill registration form' successfully
+
+2022-05-25 10:29:16 - [MESSAGE][PASSED] - I input firstname Hazel5, lastname Grace5, date 10, month 10, year 2000, phone 08112233440011, email ab12, and password HwXnxaZD17M=
+
+2022-05-25 10:29:16 - [TEST_STEP][PASSED] - I click Register button: I click Register button
+
+2022-05-25 10:29:16 - [TEST_CASE][PASSED] - Test Cases/Common/Register - Click Register: Test Cases/Common/Register - Click Register
+
+2022-05-25 10:29:16 - [TEST_STEP][PASSED] - click(findTestObject("Register/btn_register")): Object: 'Object Repository/Register/btn_register' is clicked on
+
+2022-05-25 10:29:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Register/btn_register' is clicked on
+
+2022-05-25 10:29:17 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-05-25 10:29:17 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-05-25 10:29:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Register - Click Register' successfully
+
+2022-05-25 10:29:17 - [MESSAGE][PASSED] - I click Register button
+
+2022-05-25 10:29:17 - [TEST_STEP][PASSED] - I should see error 'masukan email yang benar!': I should see error 'masukan email yang benar!'
+
+2022-05-25 10:29:17 - [TEST_CASE][PASSED] - Test Cases/Common/Login - Verify error invalid email format: Test Cases/Common/Login - Verify error invalid email format
+
+2022-05-25 10:29:17 - [TEST_STEP][PASSED] - customKeyword.verifyErrorMessage("Failed", "masukan email yang benar!"): customKeyword.verifyErrorMessage is PASSED
+
+2022-05-25 10:29:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-25 10:29:17 - [MESSAGE][PASSED] - Object 'Object Repository/Login/mdl_failed' is present
+
+2022-05-25 10:29:18 - [MESSAGE][PASSED] - Text 'Failed' is present on page 
+
+2022-05-25 10:29:18 - [MESSAGE][PASSED] - Text 'masukan email yang benar!' is present on page 
+
+2022-05-25 10:29:18 - [MESSAGE][PASSED] - customKeyword.verifyErrorMessage is PASSED
+
+2022-05-25 10:29:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Login - Verify error invalid email format' successfully
+
+2022-05-25 10:29:18 - [MESSAGE][PASSED] - I should see error 'masukan email yang benar!'
+
+2022-05-25 10:29:18 - [MESSAGE][PASSED] - Feature file: 'Include/features/Register.feature' was passed
+
+2022-05-25 10:29:18 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Browser is closed
+
+2022-05-25 10:29:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-05-25 10:29:18 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-05-25 10:26:52 - [TEST_SUITE][PASSED] - Test Suite Register: Test Cases/Register/Neg - Register with invalid email format]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

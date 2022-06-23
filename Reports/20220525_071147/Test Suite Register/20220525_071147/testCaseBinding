@@ -1,0 +1,4 @@
+{"testCaseName":"Test Cases/Register/Register with valid data","testCaseId":"Test Cases/Register/Register with valid data"}
+{"testCaseName":"Test Cases/Register/Neg - Register with empty phone","testCaseId":"Test Cases/Register/Neg - Register with empty phone"}
+{"testCaseName":"Test Cases/Register/Neg - Register with invalid email format","testCaseId":"Test Cases/Register/Neg - Register with invalid email format"}
+{"testCaseName":"Test Cases/Register/Neg - Register with invalid password","testCaseId":"Test Cases/Register/Neg - Register with invalid password"}

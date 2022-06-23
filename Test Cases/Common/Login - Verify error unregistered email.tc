@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login - Verify error unregistered email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b16797fd-9929-4c50-80ce-b080657e989c</testCaseGuid>
+</TestCaseEntity>

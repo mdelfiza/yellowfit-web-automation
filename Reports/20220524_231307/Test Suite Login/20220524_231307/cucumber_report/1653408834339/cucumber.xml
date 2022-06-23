@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="25.947596">
+<testcase classname="Login feature" name="Login with unregistered email" time="25.947596">
+<system-out><![CDATA[Given I navigate to YellowFit application...................................passed
+When I click Account button.................................................passed
+And I enter email meitri.delfiza@icehousecorp.com and password pGIjovFIKpdMBmQKKTji5A==.passed
+And I click Login button....................................................passed
+Then I should see error 'email anda belum terdaftar'........................passed
+]]></system-out>
+</testcase>
+</testsuite>

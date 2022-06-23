@@ -1,0 +1,116 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "cbca5c9d-bca8-4e07-a8b0-4b36c28d368f",
+        "line": 75,
+        "name": "Login with valid email and empty password",
+        "description": "",
+        "id": "login-feature;login-with-valid-email-and-empty-password;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12723063625,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "I navigate to YellowFit application",
+            "match": {
+              "location": "Common.I_navigate_to_YellowFit_application()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "d23bedd7-c2d8-483f-829e-9c4e93e3ab5f"
+          },
+          {
+            "result": {
+              "duration": 3457441458,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "I click Account button",
+            "match": {
+              "location": "login.I_click_Account_button()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "bb1543d9-94f5-4c88-b2c0-9715c83c8119"
+          },
+          {
+            "result": {
+              "duration": 2100035583,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "I enter email mdelfiza@gmail.com and password ",
+            "match": {
+              "arguments": [
+                {
+                  "val": " mdelfiza@gmail.com",
+                  "offset": 13
+                },
+                {
+                  "val": " ",
+                  "offset": 45
+                }
+              ],
+              "location": "login.I_enter_email_and_password(String,String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "3f140ef4-db11-4f57-8283-a2b415fba4b4"
+          },
+          {
+            "result": {
+              "duration": 571962958,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "I click Login button",
+            "match": {
+              "location": "login.I_click_Login_button()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "7e81bc73-a47c-40f3-9d37-5409be7889f8"
+          },
+          {
+            "result": {
+              "duration": 1390259625,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "I should see error \u0027Password tidak boleh kosong!\u0027",
+            "match": {
+              "location": "login.Error_password_tidak_boleh_kosong()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "dab2af4e-82ab-447e-8f75-cae2bdf47a5a"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@Empty_password"
+          }
+        ]
+      }
+    ],
+    "name": "Login feature",
+    "description": "  I want to login to the YellowFit application",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "/Users/meitridelfiza/git/yellowfit-web-automation/Include/features/Login.feature",
+    "tags": [
+      {
+        "name": "@Login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
